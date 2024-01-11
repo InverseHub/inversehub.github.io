@@ -1,0 +1,212 @@
+{"0": {
+    "doc": "Changelog",
+    "title": "Changelog",
+    "content": " ",
+    "url": "/docs/changelog",
+    
+    "relUrl": "/docs/changelog"
+  },"1": {
+    "doc": "Changelog",
+    "title": "SimReader",
+    "content": "Release v1.1.0.0 . The most updated version . New Features . | Added: reserved for future updates | . Bugfixes . | Fixed: reserved for future updates | . Major updates: . | Reserved for future updates | . Minor updates: . | Reserved for future updates | . ",
+    "url": "/docs/changelog#simreader",
+    
+    "relUrl": "/docs/changelog#simreader"
+  },"2": {
+    "doc": "Changelog",
+    "title": "InverseHub online",
+    "content": "Release v1.4.0.0 . New Features . | Added: reserved for future updates | . Bugfixes . | Fixed: reserved for future updates | . Major updates: . | Reserved for future updates | . Minor updates: . | Reserved for future updates | . ",
+    "url": "/docs/changelog#inversehub-online",
+    
+    "relUrl": "/docs/changelog#inversehub-online"
+  },"3": {
+    "doc": "Advanced Tutorials",
+    "title": "Advanced Tutorials",
+    "content": " ",
+    "url": "/docs/advanced-tutorials",
+    
+    "relUrl": "/docs/advanced-tutorials"
+  },"4": {
+    "doc": "Advanced Tutorials",
+    "title": "Table of contents",
+    "content": ". | Branching End-use | Mathematical Expression with KaTex | . ",
+    "url": "/docs/advanced-tutorials#table-of-contents",
+    
+    "relUrl": "/docs/advanced-tutorials#table-of-contents"
+  },"5": {
+    "doc": "Advanced Tutorials",
+    "title": "Branching End-use",
+    "content": "Energy modeling software has limited end-use categories, requiring users to present data using specific end-use categories. Click on the plus sign located on the Energy Summary By End-use table. In the Separation window, select an end-use [1]. Check the Process load box [2] if it’s a process load. Enter consumption and demand values [3]. In this example, a portion of the miscellaneous load is allocated to the parking garage fan. To edit it, click the end-use name. ",
+    "url": "/docs/advanced-tutorials#branching-end-use",
+    
+    "relUrl": "/docs/advanced-tutorials#branching-end-use"
+  },"6": {
+    "doc": "Advanced Tutorials",
+    "title": "Mathematical Expression with KaTex",
+    "content": "This is applicable when ASHRAE 90.1-2016 or above is selected in Energy Model Information. http://docs.inversenergy.com:8080/link/46#bkmrk-%22ashrae-standard-90. “ASHRAE Standard 90.1-2016 has introduced a major revision to the Appendix G Performance Rating Methodology (PRM) compared to the previous version of ASHRAE 90.1. The new PRM intends to standardize the Appendix G baseline modeling requirements for all future versions of ASHRAE 90.1 by using a modified ASHRAE 90.1 -2004 Appendix G baseline combined with Building Performance Factors (BPFs) to calculate the performance cost index (baseline cost budget). BPFs are regulated energy cost reduction factors based on simulations performed by Pacific Northwest National Laboratory (PNNL) using the ASHRAE prototype buildings and categorized by climate zone and building typologies.” . https://link.gale.com/apps/doc/A666206449/AONE?u=mlin_oweb&amp;sid=googleScholar&amp;xid=45dbb986 . Click the plus sign in the PCI &amp; PCIt Calculations section to calculate PCI. Enter building areas for a combined BPF. The following calculations will be displayed as shown below. These mathematical expressions have been generated using KaTex (https://katex.org). ",
+    "url": "/docs/advanced-tutorials#mathematical-expression-with-katex",
+    
+    "relUrl": "/docs/advanced-tutorials#mathematical-expression-with-katex"
+  },"7": {
+    "doc": "Frequently Asked Questions",
+    "title": "Frequently Asked Questions",
+    "content": ". | What are the necessary setups for reading EnergyPlus outputs? | Where can I locate the energy model results? | What are SimReader Default Units? | . ",
+    "url": "/docs/faq/",
+    
+    "relUrl": "/docs/faq/"
+  },"8": {
+    "doc": "Frequently Asked Questions",
+    "title": "What are the necessary setups for reading EnergyPlus outputs?",
+    "content": "SimReader reads specific tables in eplustbl.html: LEED Summary, Building Energy Performance, and Tariff Report. If the tables are not visible, copy and paste the code block below into your IDF file and then rerun it. Output:Table:Monthly, Building Energy Performance - Electricity, !- Name 2, !- Digits After Decimal InteriorLights:Electricity, !- Variable or Meter Name 1 SumOrAverage, !- Aggregation Type for Variable or Meter 1 ExteriorLights:Electricity, !- Variable or Meter Name 2 SumOrAverage, !- Aggregation Type for Variable or Meter 2 InteriorEquipment:Electricity, !- Variable or Meter Name 3 SumOrAverage, !- Aggregation Type for Variable or Meter 3 ExteriorEquipment:Electricity, !- Variable or Meter Name 4 SumOrAverage, !- Aggregation Type for Variable or Meter 4 Fans:Electricity, !- Variable or Meter Name 5 SumOrAverage, !- Aggregation Type for Variable or Meter 5 Pumps:Electricity, !- Variable or Meter Name 6 SumOrAverage, !- Aggregation Type for Variable or Meter 6 Heating:Electricity, !- Variable or Meter Name 7 SumOrAverage, !- Aggregation Type for Variable or Meter 7 Cooling:Electricity, !- Variable or Meter Name 8 SumOrAverage, !- Aggregation Type for Variable or Meter 8 HeatRejection:Electricity, !- Variable or Meter Name 9 SumOrAverage, !- Aggregation Type for Variable or Meter 9 Humidifier:Electricity, !- Variable or Meter Name 10 SumOrAverage, !- Aggregation Type for Variable or Meter 10 HeatRecovery:Electricity, !- Variable or Meter Name 11 SumOrAverage, !- Aggregation Type for Variable or Meter 11 WaterSystems:Electricity, !- Variable or Meter Name 12 SumOrAverage, !- Aggregation Type for Variable or Meter 12 Cogeneration:Electricity, !- Variable or Meter Name 13 SumOrAverage, !- Aggregation Type for Variable or Meter 13 Refrigeration:Electricity, !- Variable or Meter Name 14 SumOrAverage; !- Aggregation Type for Variable or Meter 14 Output:Table:Monthly, Building Energy Performance - Natural Gas, !- Name 2, !- Digits After Decimal InteriorEquipment:NaturalGas, !- Variable or Meter Name 1 SumOrAverage, !- Aggregation Type for Variable or Meter 1 ExteriorEquipment:NaturalGas, !- Variable or Meter Name 2 SumOrAverage, !- Aggregation Type for Variable or Meter 2 Heating:NaturalGas, !- Variable or Meter Name 3 SumOrAverage, !- Aggregation Type for Variable or Meter 3 Cooling:NaturalGas, !- Variable or Meter Name 4 SumOrAverage, !- Aggregation Type for Variable or Meter 4 WaterSystems:NaturalGas, !- Variable or Meter Name 5 SumOrAverage, !- Aggregation Type for Variable or Meter 5 Cogeneration:NaturalGas, !- Variable or Meter Name 6 SumOrAverage; !- Aggregation Type for Variable or Meter 6 Output:Table:Monthly, Building Energy Performance - District Heating, !- Name 2, !- Digits After Decimal InteriorLights:DistrictHeating, !- Variable or Meter Name 1 SumOrAverage, !- Aggregation Type for Variable or Meter 1 ExteriorLights:DistrictHeating, !- Variable or Meter Name 2 SumOrAverage, !- Aggregation Type for Variable or Meter 2 InteriorEquipment:DistrictHeating, !- Variable or Meter Name 3 SumOrAverage, !- Aggregation Type for Variable or Meter 3 ExteriorEquipment:DistrictHeating, !- Variable or Meter Name 4 SumOrAverage, !- Aggregation Type for Variable or Meter 4 Fans:DistrictHeating, !- Variable or Meter Name 5 SumOrAverage, !- Aggregation Type for Variable or Meter 5 Pumps:DistrictHeating, !- Variable or Meter Name 6 SumOrAverage, !- Aggregation Type for Variable or Meter 6 Heating:DistrictHeating, !- Variable or Meter Name 7 SumOrAverage, !- Aggregation Type for Variable or Meter 7 Cooling:DistrictHeating, !- Variable or Meter Name 8 SumOrAverage, !- Aggregation Type for Variable or Meter 8 HeatRejection:DistrictHeating, !- Variable or Meter Name 9 SumOrAverage, !- Aggregation Type for Variable or Meter 9 Humidifier:DistrictHeating, !- Variable or Meter Name 10 SumOrAverage, !- Aggregation Type for Variable or Meter 10 HeatRecovery:DistrictHeating, !- Variable or Meter Name 11 SumOrAverage, !- Aggregation Type for Variable or Meter 11 WaterSystems:DistrictHeating, !- Variable or Meter Name 12 SumOrAverage, !- Aggregation Type for Variable or Meter 12 Cogeneration:DistrictHeating, !- Variable or Meter Name 13 SumOrAverage; !- Aggregation Type for Variable or Meter 13 Output:Table:Monthly, Building Energy Performance - District Cooling, !- Name 2, !- Digits After Decimal InteriorLights:DistrictCooling, !- Variable or Meter Name 1 SumOrAverage, !- Aggregation Type for Variable or Meter 1 ExteriorLights:DistrictCooling, !- Variable or Meter Name 2 SumOrAverage, !- Aggregation Type for Variable or Meter 2 InteriorEquipment:DistrictCooling, !- Variable or Meter Name 3 SumOrAverage, !- Aggregation Type for Variable or Meter 3 ExteriorEquipment:DistrictCooling, !- Variable or Meter Name 4 SumOrAverage, !- Aggregation Type for Variable or Meter 4 Fans:DistrictCooling, !- Variable or Meter Name 5 SumOrAverage, !- Aggregation Type for Variable or Meter 5 Pumps:DistrictCooling, !- Variable or Meter Name 6 SumOrAverage, !- Aggregation Type for Variable or Meter 6 Heating:DistrictCooling, !- Variable or Meter Name 7 SumOrAverage, !- Aggregation Type for Variable or Meter 7 Cooling:DistrictCooling, !- Variable or Meter Name 8 SumOrAverage, !- Aggregation Type for Variable or Meter 8 HeatRejection:DistrictCooling, !- Variable or Meter Name 9 SumOrAverage, !- Aggregation Type for Variable or Meter 9 Humidifier:DistrictCooling, !- Variable or Meter Name 10 SumOrAverage, !- Aggregation Type for Variable or Meter 10 HeatRecovery:DistrictCooling, !- Variable or Meter Name 11 SumOrAverage, !- Aggregation Type for Variable or Meter 11 WaterSystems:DistrictCooling, !- Variable or Meter Name 12 SumOrAverage, !- Aggregation Type for Variable or Meter 12 Cogeneration:DistrictCooling, !- Variable or Meter Name 13 SumOrAverage; !- Aggregation Type for Variable or Meter 13 Output:Table:Monthly, Building Energy Performance - Electricity Peak Demand, !- Name 2, !- Digits After Decimal Electricity:Facility, !- Variable or Meter Name 1 Maximum, !- Aggregation Type for Variable or Meter 1 InteriorLights:Electricity, !- Variable or Meter Name 2 ValueWhenMaximumOrMinimum, !- Aggregation Type for Variable or Meter 2 ExteriorLights:Electricity, !- Variable or Meter Name 3 ValueWhenMaximumOrMinimum, !- Aggregation Type for Variable or Meter 3 InteriorEquipment:Electricity, !- Variable or Meter Name 4 ValueWhenMaximumOrMinimum, !- Aggregation Type for Variable or Meter 4 ExteriorEquipment:Electricity, !- Variable or Meter Name 5 ValueWhenMaximumOrMinimum, !- Aggregation Type for Variable or Meter 5 Fans:Electricity, !- Variable or Meter Name 6 ValueWhenMaximumOrMinimum, !- Aggregation Type for Variable or Meter 6 Pumps:Electricity, !- Variable or Meter Name 7 ValueWhenMaximumOrMinimum, !- Aggregation Type for Variable or Meter 7 Heating:Electricity, !- Variable or Meter Name 8 ValueWhenMaximumOrMinimum, !- Aggregation Type for Variable or Meter 8 Cooling:Electricity, !- Variable or Meter Name 9 ValueWhenMaximumOrMinimum, !- Aggregation Type for Variable or Meter 9 HeatRejection:Electricity, !- Variable or Meter Name 10 ValueWhenMaximumOrMinimum, !- Aggregation Type for Variable or Meter 10 Humidifier:Electricity, !- Variable or Meter Name 11 ValueWhenMaximumOrMinimum, !- Aggregation Type for Variable or Meter 11 HeatRecovery:Electricity, !- Variable or Meter Name 12 ValueWhenMaximumOrMinimum, !- Aggregation Type for Variable or Meter 12 WaterSystems:Electricity, !- Variable or Meter Name 13 ValueWhenMaximumOrMinimum, !- Aggregation Type for Variable or Meter 13 Cogeneration:Electricity, !- Variable or Meter Name 14 ValueWhenMaximumOrMinimum; !- Aggregation Type for Variable or Meter 14 Output:Table:Monthly, Building Energy Performance - Natural Gas Peak Demand, !- Name 2, !- Digits After Decimal NaturalGas:Facility, !- Variable or Meter Name 1 Maximum, !- Aggregation Type for Variable or Meter 1 InteriorEquipment:NaturalGas, !- Variable or Meter Name 2 ValueWhenMaximumOrMinimum, !- Aggregation Type for Variable or Meter 2 ExteriorEquipment:NaturalGas, !- Variable or Meter Name 3 ValueWhenMaximumOrMinimum, !- Aggregation Type for Variable or Meter 3 Heating:NaturalGas, !- Variable or Meter Name 4 ValueWhenMaximumOrMinimum, !- Aggregation Type for Variable or Meter 4 Cooling:NaturalGas, !- Variable or Meter Name 5 ValueWhenMaximumOrMinimum, !- Aggregation Type for Variable or Meter 5 WaterSystems:NaturalGas, !- Variable or Meter Name 6 ValueWhenMaximumOrMinimum, !- Aggregation Type for Variable or Meter 6 Cogeneration:NaturalGas, !- Variable or Meter Name 7 ValueWhenMaximumOrMinimum; !- Aggregation Type for Variable or Meter 7 Output:Table:Monthly, Building Energy Performance - District Heating Peak Demand, !- Name 2, !- Digits After Decimal DistrictHeating:Facility, !- Variable or Meter Name 1 Maximum, !- Aggregation Type for Variable or Meter 1 InteriorLights:DistrictHeating, !- Variable or Meter Name 2 ValueWhenMaximumOrMinimum, !- Aggregation Type for Variable or Meter 2 ExteriorLights:DistrictHeating, !- Variable or Meter Name 3 ValueWhenMaximumOrMinimum, !- Aggregation Type for Variable or Meter 3 InteriorEquipment:DistrictHeating, !- Variable or Meter Name 4 ValueWhenMaximumOrMinimum, !- Aggregation Type for Variable or Meter 4 ExteriorEquipment:DistrictHeating, !- Variable or Meter Name 5 ValueWhenMaximumOrMinimum, !- Aggregation Type for Variable or Meter 5 Fans:DistrictHeating, !- Variable or Meter Name 6 ValueWhenMaximumOrMinimum, !- Aggregation Type for Variable or Meter 6 Pumps:DistrictHeating, !- Variable or Meter Name 7 ValueWhenMaximumOrMinimum, !- Aggregation Type for Variable or Meter 7 Heating:DistrictHeating, !- Variable or Meter Name 8 ValueWhenMaximumOrMinimum, !- Aggregation Type for Variable or Meter 8 Cooling:DistrictHeating, !- Variable or Meter Name 9 ValueWhenMaximumOrMinimum, !- Aggregation Type for Variable or Meter 9 HeatRejection:DistrictHeating, !- Variable or Meter Name 10 ValueWhenMaximumOrMinimum, !- Aggregation Type for Variable or Meter 10 Humidifier:DistrictHeating, !- Variable or Meter Name 11 ValueWhenMaximumOrMinimum, !- Aggregation Type for Variable or Meter 11 HeatRecovery:DistrictHeating, !- Variable or Meter Name 12 ValueWhenMaximumOrMinimum, !- Aggregation Type for Variable or Meter 12 WaterSystems:DistrictHeating, !- Variable or Meter Name 13 ValueWhenMaximumOrMinimum, !- Aggregation Type for Variable or Meter 13 Cogeneration:DistrictHeating, !- Variable or Meter Name 14 ValueWhenMaximumOrMinimum; !- Aggregation Type for Variable or Meter 14 Output:Table:Monthly, Building Energy Performance - District Cooling Peak Demand, !- Name 2, !- Digits After Decimal DistrictCooling:Facility, !- Variable or Meter Name 1 Maximum, !- Aggregation Type for Variable or Meter 1 InteriorLights:DistrictCooling, !- Variable or Meter Name 2 ValueWhenMaximumOrMinimum, !- Aggregation Type for Variable or Meter 2 ExteriorLights:DistrictCooling, !- Variable or Meter Name 3 ValueWhenMaximumOrMinimum, !- Aggregation Type for Variable or Meter 3 InteriorEquipment:DistrictCooling, !- Variable or Meter Name 4 ValueWhenMaximumOrMinimum, !- Aggregation Type for Variable or Meter 4 ExteriorEquipment:DistrictCooling, !- Variable or Meter Name 5 ValueWhenMaximumOrMinimum, !- Aggregation Type for Variable or Meter 5 Fans:DistrictCooling, !- Variable or Meter Name 6 ValueWhenMaximumOrMinimum, !- Aggregation Type for Variable or Meter 6 Pumps:DistrictCooling, !- Variable or Meter Name 7 ValueWhenMaximumOrMinimum, !- Aggregation Type for Variable or Meter 7 Heating:DistrictCooling, !- Variable or Meter Name 8 ValueWhenMaximumOrMinimum, !- Aggregation Type for Variable or Meter 8 Cooling:DistrictCooling, !- Variable or Meter Name 9 ValueWhenMaximumOrMinimum, !- Aggregation Type for Variable or Meter 9 HeatRejection:DistrictCooling, !- Variable or Meter Name 10 ValueWhenMaximumOrMinimum, !- Aggregation Type for Variable or Meter 10 Humidifier:DistrictCooling, !- Variable or Meter Name 11 ValueWhenMaximumOrMinimum, !- Aggregation Type for Variable or Meter 11 HeatRecovery:DistrictCooling, !- Variable or Meter Name 12 ValueWhenMaximumOrMinimum, !- Aggregation Type for Variable or Meter 12 WaterSystems:DistrictCooling, !- Variable or Meter Name 13 ValueWhenMaximumOrMinimum, !- Aggregation Type for Variable or Meter 13 Cogeneration:DistrictCooling, !- Variable or Meter Name 14 ValueWhenMaximumOrMinimum; !- Aggregation Type for Variable or Meter 14 UtilityCost:Tariff, Example A FlatEnergyCharge, ! Name ElectricityPurchased:Facility, !- Output Meter Name kWh, ! Conversion Factor Choice , ! Energy Conversion Factor , ! Demand Conversion Factor , ! Time of Use Period Schedule Name , ! Season Schedule Name , ! Month Schedule Name , ! Demand Window Length 0.0; ! Monthly Charge or Variable Name UtilityCost:Charge:Simple, FlatEnergyCharge, ! Charge Variable Name Example A FlatEnergyCharge, ! Tariff Name totalEnergy, ! Source Variable Annual, ! Season EnergyCharges, ! Category Variable Name 0.095; ! Cost Per Unit Value or Variable Name UtilityCost:Tariff, FlatEnergyCharge-Gas, !- Name NaturalGas:Facility, !- Output Meter Name Therm, !- Conversion Factor Choice , !- Energy Conversion Factor , !- Demand Conversion Factor , !- Time of Use Period Schedule Name , !- Season Schedule Name , !- Month Schedule Name , !- Demand Window Length 0.0; !- Monthly Charge or Variable Name UtilityCost:Charge:Simple, SimpleEnergyCharge, !- Utility Cost Charge Simple Name FlatEnergyCharge-Gas, !- Tariff Name totalEnergy, !- Source Variable Annual, !- Season EnergyCharges, !- Category Variable Name 0.50; !- Add more utility rates here Output:Table:SummaryReports, AllSummary; !- Report 1 Name . ",
+    "url": "/docs/faq/#what-are-the-necessary-setups-for-reading-energyplus-outputs",
+    
+    "relUrl": "/docs/faq/#what-are-the-necessary-setups-for-reading-energyplus-outputs"
+  },"9": {
+    "doc": "Frequently Asked Questions",
+    "title": "Where can I locate the energy model results?",
+    "content": "Model output files, location, and extensions . | Software | Filename/Extension | Folder | Typical Location* | . | eQUEST/DOE2 | .SIM | Same folder where .inp/.pd2 files are located | c:\\Users{user}\\Documents\\eQUEST 3-65 Projects{project name} | . | EnergyPlus | eplustbl.html | Same folder where .idf file is located | c:\\EnergyPlusV9-5-0\\ExampleFiles | . | OpenStudio | eplustbl.html or eplustbl.htm | {folder where .osm file is located}\\seb\\reports\\ OR {folder where .osm file is located}\\seb\\run | c:\\openstudioapplication-1.2.1\\Examples\\compact_osw\\files\\seb\\reports\\eplustbl.html OR c:\\openstudioapplication-1.2.1\\Examples\\compact_osw\\files\\seb\\run\\eplustbl.htm | . | DesignBuilder | eplustbl.htm | Simulation -&gt; Summary -&gt; Click Export in the Help | | . The folder names are dependent on the language of your computer and Windows user name. The given locations assume Windows XP OS, English language, and user name ‘User’. ",
+    "url": "/docs/faq/#where-can-i-locate-the-energy-model-results",
+    
+    "relUrl": "/docs/faq/#where-can-i-locate-the-energy-model-results"
+  },"10": {
+    "doc": "Frequently Asked Questions",
+    "title": "What are SimReader Default Units?",
+    "content": "SimReader always converts model output values and units into default units. For example, EnergyPlus model outputs are often presented in J (joules) or GJ (Giga joules). Irrespective of the units in a html report, SimReader convert the electric value and unit into kWh (energy) and kW (demand). | Energy Type | Unit | . | Electricity | kWh | . | Natural Gas | therm | . | Fuel Oil | Gallon | . | District Cooling | MBtu | . | District Heating | MBtu | . | Gasoline | therm | . | Diesel | kBtu | . | Coal | kBtu | . | Propane | kBtu | . | Other Fuel | kBtu | . ",
+    "url": "/docs/faq/#what-are-simreader-default-units",
+    
+    "relUrl": "/docs/faq/#what-are-simreader-default-units"
+  },"11": {
+    "doc": "Guide to Your First Project",
+    "title": "Guide to Your First Project",
+    "content": "This guide details the five steps required to create your first project in InverseHub. | Step 1: Setup Working Environment | Step 2: Create a Project on InverseHub | Step 3: Complete a Model Input Summary . | Recommended Workflow | Baseline Wizard | . | Step 4: Upload Modeling Outcomes to InverseHub . | Launch SimReader and select a project name. | Click the Proposed and Baseline Buttons to include SIM files. | Go to the Summary tab and click the “READ SIM FILES” button. | Click on the “Upload to Cloud” button to upload them. | Add a conclusion. | . | Step 5: Share the Ouputs | . ",
+    "url": "/first-project/",
+    
+    "relUrl": "/first-project/"
+  },"12": {
+    "doc": "Guide to Your First Project",
+    "title": "Step 1: Setup Working Environment",
+    "content": ". | Install the latest version of SimReader. | Create an InverseHub account on the website. Verify your email to log in. | Open SimReader and select Settings from the side menu. | . | Enter your InverseHub login details to establish communication. | Logout option will appear once logged in. | . ",
+    "url": "/first-project/#step-1-setup-working-environment",
+    
+    "relUrl": "/first-project/#step-1-setup-working-environment"
+  },"13": {
+    "doc": "Guide to Your First Project",
+    "title": "Step 2: Create a Project on InverseHub",
+    "content": ". | Log in to your InverseHub account, go to All Projects. | Click on the New Project button. | Select a report type and choose a project name (the project name doesn’t need to be unique). | Go back to the Overview tab and click on the name of the project. | . ",
+    "url": "/first-project/#step-2-create-a-project-on-inversehub",
+    
+    "relUrl": "/first-project/#step-2-create-a-project-on-inversehub"
+  },"14": {
+    "doc": "Guide to Your First Project",
+    "title": "Step 3: Complete a Model Input Summary",
+    "content": "Recommended Workflow . The Simulation Program and Weather File in the Energy Model Information are automatically filled from the SIM files. Baseline Wizard . To run the Baseline Wizard, click on the vertical dots. To add items, simply select them and then click on the confirm button. Override update the selected item if they exist. Add add selected items Don’t Apply selected items are not added of updated. The Baseline Column is automatically populated based on the selected Energy Code in the Energy Model Information table. You only need to complete the Proposed column. ",
+    "url": "/first-project/#step-3-complete-a-model-input-summary",
+    
+    "relUrl": "/first-project/#step-3-complete-a-model-input-summary"
+  },"15": {
+    "doc": "Guide to Your First Project",
+    "title": "Step 4: Upload Modeling Outcomes to InverseHub",
+    "content": "Launch SimReader and select a project name. The Modeling Phase and Client Name will be automatically updated to match those in InverseHub. To reset, simply click the “Refresh” button. Click the Proposed and Baseline Buttons to include SIM files. Go to the Summary tab and click the “READ SIM FILES” button. Click on the “Upload to Cloud” button to upload them. If you don’t see the modeling outcomes, try refreshing InverseHub to update the content. Add a conclusion. ",
+    "url": "/first-project/#step-4-upload-modeling-outcomes-to-inversehub",
+    
+    "relUrl": "/first-project/#step-4-upload-modeling-outcomes-to-inversehub"
+  },"16": {
+    "doc": "Guide to Your First Project",
+    "title": "Step 5: Share the Ouputs",
+    "content": "There are two ways to share your model outputs: a view-only link and a commentable link. | To share a view-only link, simply click the Copy link button and email the link. | To receive comments on your model outputs, you need to invite reviewers via InverseHub. The reviewer will receive an email along with a 4-digit passcode. | . ",
+    "url": "/first-project/#step-5-share-the-ouputs",
+    
+    "relUrl": "/first-project/#step-5-share-the-ouputs"
+  },"17": {
+    "doc": "Getting Started",
+    "title": "Getting Started",
+    "content": "This tutorial will guide you through the necessary steps you need to take before starting your first project. | Install SimReader | Check Energy Model Inputs | . ",
+    "url": "/docs/getting-started/",
+    
+    "relUrl": "/docs/getting-started/"
+  },"18": {
+    "doc": "Getting Started",
+    "title": "Install SimReader",
+    "content": "To get started, visit the InverseHub website and install the Windows application called SimReader. ",
+    "url": "/docs/getting-started/#install-simreader",
+    
+    "relUrl": "/docs/getting-started/#install-simreader"
+  },"19": {
+    "doc": "Getting Started",
+    "title": "Check Energy Model Inputs",
+    "content": ". | Ensure utility rates are included in energy models as savings are calculated based on cost. | Ensure that your model adheres to the following requirements. | . eQEUST/DOE2 SimReader reads ES-D (Energy Cost Summary) and PS-F (Energy End-Use Summary) reports without requiring special setups. However, because of the limitation on the format of the ES-D report, the number of characters for a meter name is limited to 4. The ES-D report can represent only the first 4 characters of the meter name, while the PS-F has no limitation. A simple workaround is to use a meter name with less than 4 characters (e.g., EM1, EM1A, FM1). If the meter name has more than 4 characters, the first 4 characters should be unique. EnergyPlus/OpenStudio SimReader reads part of the LEED Summary, BUILDING ENERGY PERFORMANCE, and Tariff Report tables in the eplustbl.html file. See the basic setup for an EnergyPlus/OpenStudio user. ",
+    "url": "/docs/getting-started/#check-energy-model-inputs",
+    
+    "relUrl": "/docs/getting-started/#check-energy-model-inputs"
+  },"20": {
+    "doc": "Introduction",
+    "title": "What is InverseHub?",
+    "content": "InverseHub is an online platform that offers a comprehensive reporting system for energy modeling outputs. It currently supports outputs generated from eQUEST® and EnergyPlus®. ",
+    "url": "/#what-is-inversehub",
+    
+    "relUrl": "/#what-is-inversehub"
+  },"21": {
+    "doc": "Introduction",
+    "title": "Try InverseHub now",
+    "content": " ",
+    "url": "/#try-inversehub-now",
+    
+    "relUrl": "/#try-inversehub-now"
+  },"22": {
+    "doc": "Introduction",
+    "title": "SimReader and how it works?",
+    "content": "To upload modeling outputs into InverseHub, a windows application, called SimReader needs to be installed. SimReader is a post-processor that directly read sim files (for eQUEST) or html files (EnergyPlus). ",
+    "url": "/#simreader-and-how-it-works",
+    
+    "relUrl": "/#simreader-and-how-it-works"
+  },"23": {
+    "doc": "Introduction",
+    "title": "Workflow",
+    "content": "You can create model inputs and outputs in each design phase: schematic design, developed design, construction document, cerfificate review, final approved, post construction. Each modeling inputs and ouputs will be stored and make reviwers access the phase you want to expose. timeline title Energy Modeling Phases section Design Phase Schematic Design : Simple box modeling Developed Design : ECM analysis Construction Document : Final design section LEED Review Phase Cerfificate Review : Preliminary review comments Final Approved : Final review comments section Post-Construction Phase Post-Construction : As-built drawings . ",
+    "url": "/#workflow",
+    
+    "relUrl": "/#workflow"
+  },"24": {
+    "doc": "Introduction",
+    "title": "Introduction",
+    "content": " ",
+    "url": "/",
+    
+    "relUrl": "/"
+  },"25": {
+    "doc": "Subscription",
+    "title": "Subscription",
+    "content": ". | Do you offer refunds? | What happens if I don’t renew my subscription? | Can I cancel my subscription at any time? | . ",
+    "url": "/docs/subscription/",
+    
+    "relUrl": "/docs/subscription/"
+  },"26": {
+    "doc": "Subscription",
+    "title": "Do you offer refunds?",
+    "content": "We offer a 30-day refund policy. Afterward, send us an explanation of your circumstances and we will consider your request on an individual basis. Refunds are issued as appropriate. Please direct all requests to billing-support@inversenergy.com. ",
+    "url": "/docs/subscription/#do-you-offer-refunds",
+    
+    "relUrl": "/docs/subscription/#do-you-offer-refunds"
+  },"27": {
+    "doc": "Subscription",
+    "title": "What happens if I don’t renew my subscription?",
+    "content": "SIf you don’t want to renew your subscription after it expires: . | You won’t lose any work. Your work will continue to remain private. | you will be able to use all features that you could do with a paid account: accessing, viewing projects, and sharing with your teammates. | You can continue to access and update the projects you created with a paid subscription. But, you won’t be able to create a new project. | . If you decide you want to renew at a later date, that’s fine — you’re welcome back at any time and regain full access to the features and functionality. ",
+    "url": "/docs/subscription/#what-happens-if-i-dont-renew-my-subscription",
+    
+    "relUrl": "/docs/subscription/#what-happens-if-i-dont-renew-my-subscription"
+  },"28": {
+    "doc": "Subscription",
+    "title": "Can I cancel my subscription at any time?",
+    "content": "Yes, you can cancel your subscription at any point. ",
+    "url": "/docs/subscription/#can-i-cancel-my-subscription-at-any-time",
+    
+    "relUrl": "/docs/subscription/#can-i-cancel-my-subscription-at-any-time"
+  },"29": {
+    "doc": "Technical Support",
+    "title": "Technical Support",
+    "content": ". Technical issues support@inversenergy.com General inquires help@inversenergy.com Press press@inversenergy.com Billing issues billing-support@inversenergy.com ",
+    "url": "/docs/technical-support/",
+    
+    "relUrl": "/docs/technical-support/"
+  }
+}
