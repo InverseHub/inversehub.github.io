@@ -43,7 +43,7 @@
   },"6": {
     "doc": "Advanced Tutorials",
     "title": "Mathematical Expression with KaTex",
-    "content": "This is applicable when ASHRAE 90.1-2016 or above is selected in Energy Model Information. http://docs.inversenergy.com:8080/link/46#bkmrk-%22ashrae-standard-90. “ASHRAE Standard 90.1-2016 has introduced a major revision to the Appendix G Performance Rating Methodology (PRM) compared to the previous version of ASHRAE 90.1. The new PRM intends to standardize the Appendix G baseline modeling requirements for all future versions of ASHRAE 90.1 by using a modified ASHRAE 90.1 -2004 Appendix G baseline combined with Building Performance Factors (BPFs) to calculate the performance cost index (baseline cost budget). BPFs are regulated energy cost reduction factors based on simulations performed by Pacific Northwest National Laboratory (PNNL) using the ASHRAE prototype buildings and categorized by climate zone and building typologies.” . https://link.gale.com/apps/doc/A666206449/AONE?u=mlin_oweb&amp;sid=googleScholar&amp;xid=45dbb986 . Click the plus sign in the PCI &amp; PCIt Calculations section to calculate PCI. Enter building areas for a combined BPF. The following calculations will be displayed as shown below. These mathematical expressions have been generated using KaTex (https://katex.org). ",
+    "content": "This is applicable when ASHRAE 90.1-2016 or above is selected in Energy Model Information. “ASHRAE Standard 90.1-2016 has introduced a major revision to the Appendix G Performance Rating Methodology (PRM) compared to the previous version of ASHRAE 90.1. The new PRM intends to standardize the Appendix G baseline modeling requirements for all future versions of ASHRAE 90.1 by using a modified ASHRAE 90.1 -2004 Appendix G baseline combined with Building Performance Factors (BPFs) to calculate the performance cost index (baseline cost budget). BPFs are regulated energy cost reduction factors based on simulations performed by Pacific Northwest National Laboratory (PNNL) using the ASHRAE prototype buildings and categorized by climate zone and building typologies.” . https://link.gale.com/apps/doc/A666206449/AONE?u=mlin_oweb&amp;sid=googleScholar&amp;xid=45dbb986 . Click the plus sign in the PCI &amp; PCIt Calculations section to calculate PCI. Enter building areas for a combined BPF. The following calculations will be displayed as shown below. These mathematical expressions have been generated using KaTex (https://katex.org). ",
     "url": "/docs/advanced-tutorials#mathematical-expression-with-katex",
     
     "relUrl": "/docs/advanced-tutorials#mathematical-expression-with-katex"
@@ -85,7 +85,7 @@
   },"12": {
     "doc": "Guide to Your First Project",
     "title": "Step 1: Setup Working Environment",
-    "content": ". | Install the latest version of SimReader. | Create an InverseHub account on the website. Verify your email to log in. | Open SimReader and select Settings from the side menu. | . | Enter your InverseHub login details to establish communication. | Logout option will appear once logged in. | . ",
+    "content": ". | Install the latest version of SimReader. | Create an InverseHub account on the website. Verify your email to log in. | Open SimReader and select Settings from the side menu. | Enter your InverseHub login details to establish communication. | Logout option will appear once logged in. | . ",
     "url": "/first-project/#step-1-setup-working-environment",
     
     "relUrl": "/first-project/#step-1-setup-working-environment"
@@ -99,7 +99,7 @@
   },"14": {
     "doc": "Guide to Your First Project",
     "title": "Step 3: Complete a Model Input Summary",
-    "content": "Recommended Workflow . The Simulation Program and Weather File in the Energy Model Information are automatically filled from the SIM files. Baseline Wizard . To run the Baseline Wizard, click on the vertical dots. To add items, simply select them and then click on the confirm button. Override update the selected item if they exist. Add add selected items Don’t Apply selected items are not added of updated. The Baseline Column is automatically populated based on the selected Energy Code in the Energy Model Information table. You only need to complete the Proposed column. ",
+    "content": "Recommended Workflow . The Simulation Program and Weather File in the Energy Model Information are automatically filled from the SIM files. Baseline Wizard . | To run the Baseline Wizard, click on the vertical dots. | To add items, simply select them and then click on the confirm button. | . Override update the selected item if they exist. Add add selected items Don’t Apply selected items are not added of updated. | The Baseline Column is automatically populated based on the selected Energy Code in the Energy Model Information table. You only need to complete the Proposed column. | . ",
     "url": "/first-project/#step-3-complete-a-model-input-summary",
     
     "relUrl": "/first-project/#step-3-complete-a-model-input-summary"
@@ -120,7 +120,7 @@
   },"17": {
     "doc": "Getting Started",
     "title": "Getting Started",
-    "content": "This tutorial will guide you through the necessary steps you need to take before starting your first project. | Install SimReader | Check Energy Model Inputs | . ",
+    "content": "This guide explains what you need to prepare before starting your first project. | Install SimReader | Check Energy Model Inputs | . ",
     "url": "/docs/getting-started/",
     
     "relUrl": "/docs/getting-started/"
@@ -162,7 +162,7 @@
   },"23": {
     "doc": "Introduction",
     "title": "Workflow",
-    "content": "You can create model inputs and outputs in each design phase: schematic design, developed design, construction document, cerfificate review, final approved, post construction. Each modeling inputs and ouputs will be stored and make reviwers access the phase you want to expose. timeline title Energy Modeling Phases section Design Phase Schematic Design : Simple box modeling Developed Design : ECM analysis Construction Document : Final design section LEED Review Phase Cerfificate Review : Preliminary review comments Final Approved : Final review comments section Post-Construction Phase Post-Construction : As-built drawings . ",
+    "content": "You can create model inputs and outputs in each design phase: schematic design, developed design, construction document, certificate review, final approved, and post-construction. Each modeling input and output will be stored to allow reviewers to access the phase you want to expose. timeline title Energy Modeling Phases section Design Phase Schematic Design : Simple box modeling Developed Design : ECM analysis Construction Document : Final design section LEED Review Phase Cerfificate Review : Preliminary review comments Final Approved : Final review comments section Post-Construction Phase Post-Construction : As-built drawings . ",
     "url": "/#workflow",
     
     "relUrl": "/#workflow"
