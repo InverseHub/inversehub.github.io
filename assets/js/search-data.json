@@ -8,7 +8,7 @@
   },"1": {
     "doc": "What's new",
     "title": "October 2026",
-    "content": "Energy codes and compliance . | More energy codes: Chicago 2022, Minnesota 2024, New York State 2020, New York City 2020 and 2025, and Oregon 2021 and 2025, with their own rules and building performance factors. See Energy codes and compliance paths. | Each code lists only its own compliance paths under Rating System. To use the ASHRAE 90.1 alternative an IECC edition allows, choose that 90.1 edition as the energy code. | Performance Calculations (formerly “PCI &amp; PCIt Calculations”): pick the cost index or an energy index. ASHRAE 90.1-2022 and Oregon 2025 offer site energy, source energy or carbon, with optional local conversion factors. 90.1-2022 also counts the code-required on-site solar. | Energy Cost Budget Method and Total Building Performance have their own calculations, with each edition’s limit and renewables rule. | . Fill Baseline from Energy Code . | The baseline HVAC system now follows the compliance path. The Energy Cost Budget Method uses the budget systems and IECC Total Building Performance the standard reference design systems, both pre-selected from your proposed design. | IECC 2009 and 2012 now fill the envelope and lighting from their own tables. | Chicago 2022 and New York State 2020 fill Total Building Performance from their base IECC edition. | . SimReader . | Drag files onto the Baseline and Proposed tiles, and reorder them with the arrows or by dragging. | Next: Results reads the files for you. SimReader warns when the baseline and proposed rate names differ. | Unmet load hours and process loads are shown as tables. Unmet load hours upload to InverseHub, where an Unmet Load Hours card can show them. | On-site renewables and exceptional calculations get their annual cost from the proposed design’s rate until you type your own. | . Account . | Three plans (Starter, Basic and Business), with upgrades, scheduled downgrades, cancellation to the end of the paid period and payment method updates on the Subscription page. | . ",
+    "content": "Energy codes and compliance . | More energy codes: Chicago 2022, Minnesota 2024, New York State 2020, New York City 2020 and 2025, and Oregon 2021 and 2025, with their own rules and building performance factors. See Energy codes and compliance paths. | Each code lists only its own compliance paths under Rating System. To use the ASHRAE 90.1 alternative an IECC edition allows, choose that 90.1 edition as the energy code. | Performance Calculations (formerly “PCI &amp; PCIt Calculations”): pick the cost index or an energy index. ASHRAE 90.1-2022 and Oregon 2025 offer site energy, source energy or carbon, with optional local conversion factors. 90.1-2022 also counts the code-required on-site solar. | Energy Cost Budget Method and Total Building Performance have their own calculations, with each edition’s limit and renewables rule. | . Fill Baseline from Energy Code . | The baseline HVAC system now follows the compliance path. The Energy Cost Budget Method uses the budget systems and IECC Total Building Performance the standard reference design systems, both pre-selected from your proposed design. | IECC 2009 and 2012 now fill the envelope and lighting from their own tables. | Chicago 2022 and New York State 2020 fill Total Building Performance from their base IECC edition. | . SimReader . | Drag files onto the Baseline and Proposed tiles, and reorder them with the arrows or by dragging. | Next: Results reads the files for you. SimReader warns when the baseline and proposed rate names differ. | Unmet load hours and process loads are shown as tables. Unmet load hours upload to InverseHub, where an Unmet Load Hours card can show them. | On-site renewables and exceptional calculations get their annual cost from the proposed design’s rate until you type your own. | . Reviews and comments . | A summary at the top of the review page: the status and the steps to come, the modeler, the savings, the energy code, the upload date and the start of the conclusion, then links to each section with its open comments. See Reviewers. | Send my comments to the modeler on the Comments tab emails the modeler your open comments in one message. Commenters get an email when the modeler replies or resolves a comment. | The Comments tab filters by All, Open or Resolved, and Show in the table jumps to a comment’s value. | Clients see Your modeler and Needs your attention on their Home page, and Open review and Update status on each project. See Clients. | . Account . | Three plans (Starter, Basic and Business), with upgrades, scheduled downgrades, cancellation to the end of the paid period and payment method updates on the Subscription page. | . ",
     "url": "/docs/changelog/#october-2026",
     
     "relUrl": "/docs/changelog/#october-2026"
@@ -22,7 +22,7 @@
   },"3": {
     "doc": "Account and subscription",
     "title": "Account and subscription",
-    "content": "A plan sets how many new projects you can create. Everything else (uploading, editing, sharing and reviewing) works on every plan. On this page . | Plans | Subscribe or change your plan | Cancel | Refunds | Account settings | . ",
+    "content": "A plan sets how many new projects you can create. Everything else (uploading, editing, sharing and reviewing) works on every plan. On this page . | Plans | Subscribe or change your plan | Cancel | Invoices | Refunds | Account settings | . ",
     "url": "/account/",
     
     "relUrl": "/account/"
@@ -49,768 +49,782 @@
     "relUrl": "/account/#cancel"
   },"7": {
     "doc": "Account and subscription",
+    "title": "Invoices",
+    "content": "We email you an invoice after each payment: your first payment, every renewal, and the difference charged when you upgrade. If a renewal payment doesn’t go through, we email you as well; update your payment method on the Subscription page to keep your plan. All your payments are listed under Billing history on the Subscription page. Select View to open an invoice and print it, or PDF to download it. For questions about a payment, reply to the invoice email or write to billing-support@inversenergy.com. ",
+    "url": "/account/#invoices",
+    
+    "relUrl": "/account/#invoices"
+  },"8": {
+    "doc": "Account and subscription",
     "title": "Refunds",
     "content": "We offer a 30-day refund policy. After that, send us an explanation of your circumstances and we’ll consider your request on an individual basis. Please send all requests to billing-support@inversenergy.com. ",
     "url": "/account/#refunds",
     
     "relUrl": "/account/#refunds"
-  },"8": {
+  },"9": {
     "doc": "Account and subscription",
     "title": "Account settings",
     "content": "Open the menu under your name (top right) and select Account settings. | Profile: your picture, your name, credential and title, and your company. Your name, credential and title appear on your PDF reports; the preview on the page shows how. A picture can be a PNG or JPG up to 2 MB; it’s cropped to a square. | Email: select Change email and enter the new address. We send a confirmation link to it, and your current email keeps working until you click the link. | Password: enter your current password and the new one. If you’ve forgotten the current one, select Forgot your current password? to reset it by email. | Subscription: opens the Subscription page. | Your data: download the personal details stored in your account, or delete your account. Cancel any paid subscription first. | . ",
     "url": "/account/#account-settings",
     
     "relUrl": "/account/#account-settings"
-  },"9": {
+  },"10": {
     "doc": "How results are calculated",
     "title": "How results are calculated",
     "content": "What InverseHub compares on each compliance path, in plain words. The calculation on your project page shows the same steps with your numbers. On this page . | Energy cost first | Performance cost index (ASHRAE 90.1-2016 and later) | Earlier ASHRAE 90.1 editions (2007 to 2013) | Energy Cost Budget Method | Total Building Performance (IECC) | IgCC | Unmet load hours | Units | . ",
     "url": "/reference/calculations/",
     
     "relUrl": "/reference/calculations/"
-  },"10": {
+  },"11": {
     "doc": "How results are calculated",
     "title": "Energy cost first",
     "content": "Every path starts from the annual energy cost of each design, from the utility rates in the reports. On-site renewable energy and exceptional calculations you entered in SimReader are subtracted from the proposed design. ",
     "url": "/reference/calculations/#energy-cost-first",
     
     "relUrl": "/reference/calculations/#energy-cost-first"
-  },"11": {
+  },"12": {
     "doc": "How results are calculated",
     "title": "Performance cost index (ASHRAE 90.1-2016 and later)",
     "content": "The proposed design complies when its performance cost index is at or below the target: . | PCI = proposed building performance ÷ baseline building performance, where both are annual energy costs. | PCIt = (baseline unregulated energy cost + BPF × baseline regulated energy cost − PRE) ÷ baseline building performance. | . Where: . | BPF is the code’s building performance factor for the building type and climate zone. With several building area types, InverseHub uses the area-weighted average. | PRE is the energy cost of the on-site renewable energy the code requires (90.1-2022 and the codes based on it). It’s zero otherwise. | On-site renewables count toward the PCI up to 5% of the baseline building performance; with a PRE, only renewables beyond the required system count. | . Energy index. With the energy method, the same formulas use site energy instead of cost. Codes with their own energy rules use their own BPF tables and conversion factors: source energy for NYC 2020, site energy for NYC 2025 and New York State 2025. ASHRAE 90.1-2022 and Oregon 2025 offer site energy, source energy or carbon. If you enter local conversion factors for electricity and gas, InverseHub recalculates the BPF from them with the code’s coefficients. ",
     "url": "/reference/calculations/#performance-cost-index-ashrae-901-2016-and-later",
     
     "relUrl": "/reference/calculations/#performance-cost-index-ashrae-901-2016-and-later"
-  },"12": {
+  },"13": {
     "doc": "How results are calculated",
     "title": "Earlier ASHRAE 90.1 editions (2007 to 2013)",
     "content": "The Performance Rating Method compares the proposed design’s energy cost with the baseline building’s. It passes when the proposed cost is lower. With the energy method, it compares site energy. ",
     "url": "/reference/calculations/#earlier-ashrae-901-editions-2007-to-2013",
     
     "relUrl": "/reference/calculations/#earlier-ashrae-901-editions-2007-to-2013"
-  },"13": {
+  },"14": {
     "doc": "How results are calculated",
     "title": "Energy Cost Budget Method",
     "content": "The design energy cost (DEC) of the proposed design must be at or below the energy cost budget (ECB), the budget building’s annual energy cost. | From 90.1-2016 on, on-site renewables are credited up to 5% of the budget. | In 90.1-2022, the budget is reduced by the required energy credits: ECB × (1 − credits ÷ 1000 × the additions and alterations factor). The required on-site solar’s cost (PRE) comes off the budget, and only renewables beyond it are credited. | . ",
     "url": "/reference/calculations/#energy-cost-budget-method",
     
     "relUrl": "/reference/calculations/#energy-cost-budget-method"
-  },"14": {
+  },"15": {
     "doc": "How results are calculated",
     "title": "Total Building Performance (IECC)",
     "content": "The proposed design’s annual energy cost must be at most a share of the standard reference design’s: . | 100% for IECC 2006 and 2009; 85% for IECC 2012 to 2021; 80% for Chicago 2022; 85% for New York State 2020. | For IECC 2018 and 2021, and Chicago 2022, on-site renewables count up to 5% of the standard reference design’s energy cost. For the other editions, they’re subtracted from the proposed cost. | . ",
     "url": "/reference/calculations/#total-building-performance-iecc",
     
     "relUrl": "/reference/calculations/#total-building-performance-iecc"
-  },"15": {
+  },"16": {
     "doc": "How results are calculated",
     "title": "IgCC",
     "content": ". | IgCC 2012 and 2015: the zero energy performance index (zEPI) compares source energy use intensities: zEPI = 57 (2012) or 52 (2015) × proposed EUI ÷ standard reference EUI. It must be at most 51 (2012) or 50 (2015). The proposed design’s CO₂e emissions are checked too. On-site renewable energy is subtracted from the proposed design’s energy and emissions. | IgCC 2021: the cost PCI and the source-energy zEPI against their targets, which the building’s renewable fraction lowers. Also checked: CO₂e emissions, and the PCI without renewables against the ASHRAE 90.1-2019 target. | Source energy and CO₂e factors come from the code. Electricity uses the factors of your project’s EPA eGRID subregion. | . ",
     "url": "/reference/calculations/#igcc",
     
     "relUrl": "/reference/calculations/#igcc"
-  },"16": {
+  },"17": {
     "doc": "How results are calculated",
     "title": "Unmet load hours",
     "content": "SimReader and InverseHub show the heating and cooling unmet load hours of each design, from the first file of each list. They flag a total over 300 hours in red. ",
     "url": "/reference/calculations/#unmet-load-hours",
     
     "relUrl": "/reference/calculations/#unmet-load-hours"
-  },"17": {
+  },"18": {
     "doc": "How results are calculated",
     "title": "Units",
     "content": "SimReader converts every report to the same units before any calculation. See SimReader units. ",
     "url": "/reference/calculations/#units",
     
     "relUrl": "/reference/calculations/#units"
-  },"18": {
+  },"19": {
     "doc": "Clients",
     "title": "Follow your projects as a client",
     "content": "With a client account you see every project your modelers assign to your company: its status, its savings and its report. On this page . | Get your account | Your Home page | Update a project’s status | Comment on a report | . ",
     "url": "/clients/#follow-your-projects-as-a-client",
     
     "relUrl": "/clients/#follow-your-projects-as-a-client"
-  },"19": {
+  },"20": {
     "doc": "Clients",
     "title": "Get your account",
     "content": ". | Your modeler adds you as a contact of your company and sends you an invitation email. | Follow the email’s steps to sign up at inversehub.com with the same email address, and confirm it. | To sign in, choose I’m a client on the sign-in page. | . ",
     "url": "/clients/#get-your-account",
     
     "relUrl": "/clients/#get-your-account"
-  },"20": {
+  },"21": {
     "doc": "Clients",
     "title": "Your Home page",
-    "content": ". | Active Project Status counts your projects by status. Click a number to show only those projects, or All to show them all again. | Active Projects lists them. Type in the search box to find one by name. | On a project card: . | select the project name to open its report, the same one reviewers see, with Download PDF; | the gauge icon shows the Cost Savings, and the dollar icon the Energy Costs. | . | The Projects tab lists all of your company’s projects. | . ",
+    "content": ". | Your modeler shows who models your projects, with their company and email. | Needs your attention lists the projects ready for your preliminary or final review, with their open comments. Select Open review to read the report, or Update status when you’ve finished. | Active Project Status counts your projects by status. Click a number to show only those projects, or All to show them all again. | Active Projects lists them. Type in the search box to find one by name. | On a project card: . | Open review (or the project name) opens its report, the same one reviewers see, with Download PDF; | Update status changes the project’s status (see below); | the line at the bottom shows the modeling phase, when the results were uploaded and the open comments, with links to the Cost savings and Energy costs. | . | The Projects tab lists all of your company’s projects. | . ",
     "url": "/clients/#your-home-page",
     
     "relUrl": "/clients/#your-home-page"
-  },"21": {
+  },"22": {
     "doc": "Clients",
     "title": "Update a project’s status",
-    "content": ". | Open the project’s menu (⋯) and select Update Status. | Choose the new status. Tick Email the modeler about this change to let them know. | Select Save. | . ",
+    "content": ". | Select Update status on the project’s card, or in Needs your attention. | Choose the new status. Tick Email the modeler about this change to let them know. | Select Save. Your Home page shows the new status right away. | . ",
     "url": "/clients/#update-a-projects-status",
     
     "relUrl": "/clients/#update-a-projects-status"
-  },"22": {
+  },"23": {
     "doc": "Clients",
     "title": "Comment on a report",
-    "content": "Comments work with a PIN, as for reviewers. Ask your modeler to email you a comment PIN, then see Comment on the report. ",
+    "content": "Signed in with your client account, you don’t need a PIN: . | Open the report. | Point to the value you want to comment on and click the comment icon that appears next to it. On a phone, tap the value. | Type your comment and save it. | . When you’ve finished, select Send my comments to the modeler on the Comments tab. See Send your comments to the modeler. You get an email when the modeler replies or resolves a comment. ",
     "url": "/clients/#comment-on-a-report",
     
     "relUrl": "/clients/#comment-on-a-report"
-  },"23": {
+  },"24": {
     "doc": "Clients",
     "title": "Clients",
     "content": " ",
     "url": "/clients/",
     
     "relUrl": "/clients/"
-  },"24": {
+  },"25": {
     "doc": "Show compliance",
     "title": "Show compliance",
     "content": "Add the calculations your compliance path needs, then let InverseHub write the conclusion. Both follow the energy code and rating system in Energy Model Information. On this page . | The two steps, on every path | Performance Rating Method (ASHRAE 90.1 Appendix G) . | 90.1-2016 and later, and the codes built on them | 90.1-2007, 2010 and 2013 | . | Energy Cost Budget Method (ASHRAE 90.1) | Total Building Performance (IECC) | IgCC Performance Option | LEED and other programs | Unmet load hours | . ",
     "url": "/modelers/compliance/",
     
     "relUrl": "/modelers/compliance/"
-  },"25": {
+  },"26": {
     "doc": "Show compliance",
     "title": "The two steps, on every path",
     "content": ". | Calculations: select + on the calculations card. Its name follows the path: Performance Calculations, Energy Cost Budget Calculations, Total Building Performance Calculations or zEPI Calculations. | Conclusion: select + on Conclusion. InverseHub checks the results against the code and writes the pass or fail statement. When the design passes, it adds a sentence that the design complies with the path. | . To redo either, delete it with its trash icon and add it again; the saved text doesn’t update by itself. Change the inputs with the edit icon on the calculation. ",
     "url": "/modelers/compliance/#the-two-steps-on-every-path",
     
     "relUrl": "/modelers/compliance/#the-two-steps-on-every-path"
-  },"26": {
+  },"27": {
     "doc": "Show compliance",
     "title": "Performance Rating Method (ASHRAE 90.1 Appendix G)",
     "content": "90.1-2016 and later, and the codes built on them . Compliance is a performance cost index (PCI) at or below its target (PCIt). The target comes from the code’s building performance factors (BPFs). | On Performance Calculations, select +. | Choose the Performance Index Calculation Method: . | Performance Cost Index Method: energy cost, as the standard requires. | Performance Energy Index Method: site energy. Codes with their own energy rules name their method here instead. For example, NYC 2020 uses source energy, NYC 2025 site energy, and ASHRAE 90.1-2022 and Oregon 2025 let you pick site energy, source energy or carbon, optionally with local conversion factors. | . | Choose the BPF Calculation: the code’s defaults for your climate zone, or a Custom BPF. | Enter the floor area of each Building Area Type. The effective BPF is the area-weighted average. BPFs cover conditioned floor area only. | For 90.1-2022 and the codes based on it, enter the annual output of any on-site solar the code requires. Its value comes off the target, and only renewables beyond it count toward the 5% renewables credit. | Select Add Calculations. | . The card then shows the result with each step of the calculation. If you pick a method the code doesn’t allow, a red note says so in the dialog, the calculation and the conclusion. The conclusion then leaves out the compliance sentence: the result is for reference only. 90.1-2007, 2010 and 2013 . There are no BPFs. The conclusion compares the proposed design’s energy cost with the baseline’s: it passes when the proposed cost is lower. With the energy method, it compares site energy instead. ",
     "url": "/modelers/compliance/#performance-rating-method-ashrae-901-appendix-g",
     
     "relUrl": "/modelers/compliance/#performance-rating-method-ashrae-901-appendix-g"
-  },"27": {
+  },"28": {
     "doc": "Show compliance",
     "title": "Energy Cost Budget Method (ASHRAE 90.1)",
     "content": "Compliance is the design energy cost (the proposed design’s) at or below the energy cost budget (the budget building’s). | On Energy Cost Budget Calculations, select +. For 90.1-2022 and the codes based on it, enter the energy credits required, the additions and alterations factor and the annual output of the required on-site solar. Earlier editions need no inputs here. | Add the conclusion. | . On-site renewables are subtracted from the design energy cost. From 90.1-2016 on, they’re credited up to 5% of the budget. Requirements the edition sets beyond the cost comparison are listed in the calculation as “also required, not checked here”. ",
     "url": "/modelers/compliance/#energy-cost-budget-method-ashrae-901",
     
     "relUrl": "/modelers/compliance/#energy-cost-budget-method-ashrae-901"
-  },"28": {
+  },"29": {
     "doc": "Show compliance",
     "title": "Total Building Performance (IECC)",
     "content": "Compliance is the proposed design’s annual energy cost at or below a share of the standard reference design’s: . | Code | Limit | On-site renewables | . | IECC 2006, 2009 | 100% | Subtracted from the proposed cost | . | IECC 2012, 2015 | 85% | Subtracted from the proposed cost | . | IECC 2018, 2021 | 85% | Credited up to 5% of the reference design’s cost | . | Chicago 2022 | 80% | Credited up to 5% | . | New York State 2020 | 85% | Subtracted from the proposed cost | . Add Total Building Performance Calculations (+), then the conclusion. ",
     "url": "/modelers/compliance/#total-building-performance-iecc",
     
     "relUrl": "/modelers/compliance/#total-building-performance-iecc"
-  },"29": {
+  },"30": {
     "doc": "Show compliance",
     "title": "IgCC Performance Option",
     "content": ". | On zEPI Calculations, select +. Choose your project’s EPA eGRID subregion: it sets the electricity’s source energy and carbon factors. For IgCC 2021, also enter the building areas. | Add the conclusion. InverseHub checks the zero energy performance index (zEPI) against its target and the carbon (CO₂e) emissions. | . InverseHub can’t conclude for IgCC 2018 yet, because its tables from ASHRAE 189.1-2017 are still to be entered. ",
     "url": "/modelers/compliance/#igcc-performance-option",
     
     "relUrl": "/modelers/compliance/#igcc-performance-option"
-  },"30": {
+  },"31": {
     "doc": "Show compliance",
     "title": "LEED and other programs",
     "content": "For LEED rating systems, the conclusion gives the points for the Optimize Energy Performance credit under the LEED version you chose. The Massachusetts pathways and 179D have their own conclusions too. ",
     "url": "/modelers/compliance/#leed-and-other-programs",
     
     "relUrl": "/modelers/compliance/#leed-and-other-programs"
-  },"31": {
+  },"32": {
     "doc": "Show compliance",
     "title": "Unmet load hours",
     "content": "When the upload includes unmet load hours, an Unmet Load Hours card shows them for both designs. It’s hidden until you switch it on, both on the review page and in the PDF. Next: Share and handle comments · How results are calculated . ",
     "url": "/modelers/compliance/#unmet-load-hours",
     
     "relUrl": "/modelers/compliance/#unmet-load-hours"
-  },"32": {
+  },"33": {
     "doc": "Energy codes and compliance paths",
     "title": "Energy codes and compliance paths",
     "content": "Every energy code you can choose under Energy Code Used, with the compliance paths it offers in the Rating System list. On this page . | ASHRAE Standard 90.1 | International Energy Conservation Code (IECC) | International Green Construction Code (IgCC) | State and city energy codes | Notes | . Certifications and programs (LEED, NGBS, Enterprise Green Communities, Living Building Challenge, Net Zero Energy Certifications, C-PACE and 179D) can be chosen with any code. A code marked superseded has a newer edition in effect, and stays available for projects permitted under it. ",
     "url": "/reference/energy-codes/",
     
     "relUrl": "/reference/energy-codes/"
-  },"33": {
+  },"34": {
     "doc": "Energy codes and compliance paths",
     "title": "ASHRAE Standard 90.1",
     "content": "| Energy code | Where | Compliance paths | . | ASHRAE Standard 90.1-2007 | National model code | Performance Rating MethodEnergy Cost Budget Method | . | ASHRAE Standard 90.1-2010 | National model code | Performance Rating MethodEnergy Cost Budget Method | . | ASHRAE Standard 90.1-2013 | National model code | Performance Rating MethodEnergy Cost Budget Method | . | ASHRAE Standard 90.1-2016 | National model code | Performance Rating MethodEnergy Cost Budget Method | . | ASHRAE Standard 90.1-2019 | National model code | Performance Rating MethodEnergy Cost Budget Method | . | ASHRAE Standard 90.1-2022 | National model code | Performance Rating MethodEnergy Cost Budget Method | . | ASHRAE Standard 90.1-2025 | National model code | Performance Rating MethodEnergy Cost Budget Method | . ",
     "url": "/reference/energy-codes/#ashrae-standard-901",
     
     "relUrl": "/reference/energy-codes/#ashrae-standard-901"
-  },"34": {
+  },"35": {
     "doc": "Energy codes and compliance paths",
     "title": "International Energy Conservation Code (IECC)",
     "content": "| Energy code | Where | Compliance paths | . | IECC - 2006 | National model code | Total Building PerformanceTotal Building Performance limit: 100% of the standard reference design's energy cost | . | IECC - 2009 | National model code | Total Building PerformanceTotal Building Performance limit: 100% of the standard reference design's energy cost | . | IECC - 2012 | National model code | Total Building PerformanceTotal Building Performance limit: 85% of the standard reference design's energy cost | . | IECC - 2015 | National model code | Total Building PerformanceTotal Building Performance limit: 85% of the standard reference design's energy cost | . | IECC - 2018 | National model code | Total Building PerformanceTotal Building Performance limit: 85% of the standard reference design's energy cost | . | IECC - 2021 | National model code | Total Building PerformanceTotal Building Performance limit: 85% of the standard reference design's energy cost | . ",
     "url": "/reference/energy-codes/#international-energy-conservation-code-iecc",
     
     "relUrl": "/reference/energy-codes/#international-energy-conservation-code-iecc"
-  },"35": {
+  },"36": {
     "doc": "Energy codes and compliance paths",
     "title": "International Green Construction Code (IgCC)",
     "content": "| Energy code | Where | Compliance paths | . | IgCC-2012 (ASHRAE 90.1-2010) | National model code | Performance Option (zEPI) | . | IgCC-2015 (ASHRAE 90.1-2013) | National model code | Performance Option (zEPI) | . | IgCC-2018 (ASHRAE 90.1-2016) | National model code | Performance Option (zEPI) | . | IgCC-2021 (ASHRAE 90.1-2019) | National model code | Performance Option (zEPI) | . ",
     "url": "/reference/energy-codes/#international-green-construction-code-igcc",
     
     "relUrl": "/reference/energy-codes/#international-green-construction-code-igcc"
-  },"36": {
+  },"37": {
     "doc": "Energy codes and compliance paths",
     "title": "State and city energy codes",
     "content": "| Energy code | Where | Compliance paths | . | 2017 DC Energy Code | District of Columbia | Performance Rating Method | . | MA Energy Code - 2020 superseded | Massachusetts | 2020 MA Energy Code - Pathway 1a2020 MA Energy Code - Pathway 1bPerformance Rating Method | . | MA Energy Code - 2021 | Massachusetts | 2021 MA Energy Code - Target Performance (C407.1)2021 MA Energy Code - Relative Performance (C407.2) | . | 2022 Chicago Energy Code (ASHRAE 90.1-2019) | Chicago, IL | Performance Rating MethodEnergy Cost Budget MethodTotal Building PerformanceTotal Building Performance limit: 80% of the standard reference design's energy cost | . | 2024 Minnesota Energy Code (ASHRAE 90.1-2019) | Minnesota | Performance Rating MethodEnergy Cost Budget Method | . | 2020 New York State Energy Code, outside NYC (ASHRAE 90.1-2016) superseded | New York State | Performance Rating MethodEnergy Cost Budget MethodTotal Building PerformanceTotal Building Performance limit: 85% of the standard reference design's energy cost | . | 2020 New York City Energy Code (ASHRAE 90.1-2016) superseded | New York City | Performance Rating MethodEnergy Cost Budget Method | . | 2025 New York City Energy Code (ASHRAE 90.1-2022) | New York City | Performance Rating MethodEnergy Cost Budget Method | . | 2021 Oregon Energy Code (ASHRAE 90.1-2019) superseded | Oregon | Performance Rating MethodEnergy Cost Budget Method | . | 2025 Oregon Energy Code (ASHRAE 90.1-2022) | Oregon | Performance Rating MethodEnergy Cost Budget Method | . ",
     "url": "/reference/energy-codes/#state-and-city-energy-codes",
     
     "relUrl": "/reference/energy-codes/#state-and-city-energy-codes"
-  },"37": {
+  },"38": {
     "doc": "Energy codes and compliance paths",
     "title": "Notes",
     "content": ". | IECC and ASHRAE 90.1. An IECC edition allows the ASHRAE 90.1 edition of its time instead of its own requirements (IECC 2009: 90.1-2007; 2012: 90.1-2010; 2015: 90.1-2013; 2018: 90.1-2016; 2021: 90.1-2019). To use that alternative, choose the 90.1 edition as the Energy Code Used. | ASHRAE 90.1-2025 has no building performance factors in InverseHub yet. | IECC 2006 has no standard reference design tables in InverseHub yet, so Fill Baseline leaves envelope, fenestration and lighting for you. | State and city codes that change some baseline rules show a reminder in Fill Baseline to check the values against the code’s text. | . Missing a code you work with? Email support@inversenergy.com. ",
     "url": "/reference/energy-codes/#notes",
     
     "relUrl": "/reference/energy-codes/#notes"
-  },"38": {
+  },"39": {
     "doc": "Fill in Energy Model Inputs",
     "title": "Fill in Energy Model Inputs",
     "content": "Tell InverseHub which energy code and compliance path the project follows. It can then fill the baseline column of your model inputs from that code. On this page . | Energy Model Information | Energy Model Inputs | Fill the baseline from the energy code . | What gets filled, by compliance path | HVAC systems pre-selected from the proposed design | . | . ",
     "url": "/modelers/energy-model-inputs/",
     
     "relUrl": "/modelers/energy-model-inputs/"
-  },"39": {
+  },"40": {
     "doc": "Fill in Energy Model Inputs",
     "title": "Energy Model Information",
     "content": "Select Edit on the card, change what you need, then Save. | Field | What to enter | . | Energy Model Based On | The design stage the model reflects. | . | Simulation Program, Weather File | Filled in by the SimReader upload. | . | Principal Heating Source | The proposed design’s main heating fuel. Fill Baseline uses it to pre-select HVAC systems. | . | Energy Code Used | Type to search. Codes for your project’s state are listed first. The (i) next to the code summarizes what InverseHub does for it. | . | Climate Zone | Used for the baseline tables and the building performance factors. | . | Rating System | Only the compliance paths of the code you chose are offered, plus certifications and programs such as LEED, NGBS or 179D. | . The compliance paths by code: . | ASHRAE 90.1, and the state and city codes built on it: Performance Rating Method (Appendix G) and Energy Cost Budget Method. | IECC: Total Building Performance. To use the ASHRAE 90.1 alternative an IECC edition allows, pick that 90.1 edition as the energy code instead. | IgCC: its Performance Option. | Codes that combine both, such as Chicago 2022 and New York State: all of their paths. | . The full list is in Energy codes and compliance paths. ",
     "url": "/modelers/energy-model-inputs/#energy-model-information",
     
     "relUrl": "/modelers/energy-model-inputs/#energy-model-information"
-  },"40": {
+  },"41": {
     "doc": "Fill in Energy Model Inputs",
     "title": "Energy Model Inputs",
     "content": "Each row has a Baseline and a Proposed column, by section: building envelope, fenestration, lighting, process loads, HVAC and domestic hot water. Use + on a section to add a row, and Edit to change one. ",
     "url": "/modelers/energy-model-inputs/#energy-model-inputs",
     
     "relUrl": "/modelers/energy-model-inputs/#energy-model-inputs"
-  },"41": {
+  },"42": {
     "doc": "Fill in Energy Model Inputs",
     "title": "Fill the baseline from the energy code",
     "content": ". | In Energy Model Inputs, open the menu (⋮) and select Fill Baseline from Energy Code. The name follows the path: Fill Budget Building… for the Energy Cost Budget Method, Fill Standard Reference Design… for Total Building Performance. | The note at the top names the tables used. On each tab choose Add, Override or Don’t Apply, and tick the items to fill. | Select Apply, then check the filled-in values. | . Values with an x (for example “x.xx EER” or “U-0.XX”) are placeholders. Replace them with your project’s values. When a code changes some baseline rules, the dialog asks you to check the values against the code’s text. Fill Baseline writes text into the Baseline column only. It doesn’t change your energy model or your uploaded results. What gets filled, by compliance path . | Path | Envelope, fenestration, lighting | HVAC | . | Performance Rating Method | The Appendix G baseline tables of the code’s 90.1 edition. From 90.1-2016 on, the baseline is the same in every edition, so the 90.1-2016 tables are used. | You choose the baseline system and any additional system types and exceptions. | . | Energy Cost Budget Method | The budget building tables: 90.1-2016’s own tables; 90.1-2010 and 2013 use the edition’s tables. For 90.1-2019 and 2022 these aren’t in InverseHub yet, so these sections are left for you. | The budget system, pre-selected from your proposed design (see below). Efficiencies are placeholders. | . | Total Building Performance (IECC) | The IECC’s standard reference design: 2009 to 2021. IECC 2006 isn’t available yet. | The reference system, pre-selected from your proposed design (see below). | . Process loads and domestic hot water are filled the same way on every path. HVAC systems pre-selected from the proposed design . For Total Building Performance and the Energy Cost Budget Method, the code assigns the baseline HVAC system from three facts about your proposed design. The HVAC System tab asks for them and pre-selects the system. You can still pick another. | Condenser cooling source | Heating system | Single-zone, residential | Single-zone, other | All other systems | . | Water or ground | Electric resistance | 5 | 5 | 1 | . | Water or ground | Heat pump | 6 | 6 | 6 | . | Water or ground | Fossil fuel | 7 | 7 | 2 | . | Air or none | Electric resistance | 8 | 9 | 3 | . | Air or none | Heat pump | 8 | 9 | 3 | . | Air or none | Fossil fuel | 10 | 11 | 4 | . Systems: 1 VAV with parallel fan-powered boxes · 2 VAV with reheat · 3 Packaged VAV with parallel fan-powered boxes · 4 Packaged VAV with reheat · 5 Two-pipe fan coil · 6 Water-source heat pump · 7 Four-pipe fan coil · 8 Packaged terminal heat pump · 9 Packaged rooftop heat pump · 10 Packaged terminal air conditioner · 11 Packaged rooftop air conditioner. For the Performance Rating Method, the Appendix G baseline system depends on more than this (building type, size and floors), so you choose it yourself. Next: Show compliance . ",
     "url": "/modelers/energy-model-inputs/#fill-the-baseline-from-the-energy-code",
     
     "relUrl": "/modelers/energy-model-inputs/#fill-the-baseline-from-the-energy-code"
-  },"42": {
+  },"43": {
     "doc": "FAQ",
     "title": "Frequently asked questions",
     "content": "Questions . | What are the necessary setups for reading EnergyPlus outputs? | Which simulation programs work with InverseHub? | Where can I locate the energy model results? | Why doesn’t SimReader list my project? | Can I average several baseline runs? | Why can’t I choose the Performance Rating Method for an IECC project? | Can I change the baseline values after Fill Baseline? | Do reviewers need an InverseHub account? | How do I bring back a phase I removed? | What are SimReader default units? | What happens if I don’t renew my subscription? | . ",
     "url": "/docs/faq/#frequently-asked-questions",
     
     "relUrl": "/docs/faq/#frequently-asked-questions"
-  },"43": {
+  },"44": {
     "doc": "FAQ",
     "title": "What are the necessary setups for reading EnergyPlus outputs?",
     "content": "SimReader reads the LEED Summary, Building Energy Performance and Tariff Report tables in eplustbl.html. If they’re missing, add the output tables to your IDF file and run the simulation again. The objects to copy are in EnergyPlus and OpenStudio. ",
     "url": "/docs/faq/#what-are-the-necessary-setups-for-reading-energyplus-outputs",
     
     "relUrl": "/docs/faq/#what-are-the-necessary-setups-for-reading-energyplus-outputs"
-  },"44": {
+  },"45": {
     "doc": "FAQ",
     "title": "Which simulation programs work with InverseHub?",
     "content": "eQUEST (DOE-2) and EnergyPlus, including the programs that run EnergyPlus, such as OpenStudio and DesignBuilder. See Prepare your model output. ",
     "url": "/docs/faq/#which-simulation-programs-work-with-inversehub",
     
     "relUrl": "/docs/faq/#which-simulation-programs-work-with-inversehub"
-  },"45": {
+  },"46": {
     "doc": "FAQ",
     "title": "Where can I locate the energy model results?",
     "content": "eQUEST writes .SIM files next to the project’s .pd2 and .inp files. EnergyPlus writes eplustbl.html in the run’s output folder. See Where to find the report files. ",
     "url": "/docs/faq/#where-can-i-locate-the-energy-model-results",
     
     "relUrl": "/docs/faq/#where-can-i-locate-the-energy-model-results"
-  },"46": {
+  },"47": {
     "doc": "FAQ",
     "title": "Why doesn’t SimReader list my project?",
     "content": "SimReader lists only pinned projects. Pin the project in InverseHub, then select Refresh next to Project Name in SimReader. ",
     "url": "/docs/faq/#why-doesnt-simreader-list-my-project",
     
     "relUrl": "/docs/faq/#why-doesnt-simreader-list-my-project"
-  },"47": {
+  },"48": {
     "doc": "FAQ",
     "title": "Can I average several baseline runs?",
     "content": "Yes. Add all the baseline files (for example the four orientations) to Baseline(s), and SimReader averages them. The first file supplies the utility rates and unmet load hours. ",
     "url": "/docs/faq/#can-i-average-several-baseline-runs",
     
     "relUrl": "/docs/faq/#can-i-average-several-baseline-runs"
-  },"48": {
+  },"49": {
     "doc": "FAQ",
     "title": "Why can’t I choose the Performance Rating Method for an IECC project?",
     "content": "Each energy code lists only its own compliance paths, and the IECC’s is Total Building Performance. If your project uses the ASHRAE 90.1 alternative the IECC allows, choose that 90.1 edition as the Energy Code Used. ",
     "url": "/docs/faq/#why-cant-i-choose-the-performance-rating-method-for-an-iecc-project",
     
     "relUrl": "/docs/faq/#why-cant-i-choose-the-performance-rating-method-for-an-iecc-project"
-  },"49": {
+  },"50": {
     "doc": "FAQ",
     "title": "Can I change the baseline values after Fill Baseline?",
     "content": "Yes. Fill Baseline only writes text into the Baseline column. Edit any row afterwards, and replace placeholders such as “x.xx EER” with your project’s values. ",
     "url": "/docs/faq/#can-i-change-the-baseline-values-after-fill-baseline",
     
     "relUrl": "/docs/faq/#can-i-change-the-baseline-values-after-fill-baseline"
-  },"50": {
+  },"51": {
     "doc": "FAQ",
     "title": "Do reviewers need an InverseHub account?",
     "content": "No. Anyone with the link can view the report, and a reviewer comments with the PIN you email them. Only clients who follow all their projects need an account. ",
     "url": "/docs/faq/#do-reviewers-need-an-inversehub-account",
     
     "relUrl": "/docs/faq/#do-reviewers-need-an-inversehub-account"
-  },"51": {
+  },"52": {
     "doc": "FAQ",
     "title": "How do I bring back a phase I removed?",
     "content": "Add it again with Add a Phase, or upload it again from SimReader. Its earlier results come back. ",
     "url": "/docs/faq/#how-do-i-bring-back-a-phase-i-removed",
     
     "relUrl": "/docs/faq/#how-do-i-bring-back-a-phase-i-removed"
-  },"52": {
+  },"53": {
     "doc": "FAQ",
     "title": "What are SimReader default units?",
     "content": "kWh for electricity, therm for natural gas, gallons for fuel oil, MBtu for district energy and kBtu for the other fuels. The full table is in SimReader units. ",
     "url": "/docs/faq/#what-are-simreader-default-units",
     
     "relUrl": "/docs/faq/#what-are-simreader-default-units"
-  },"53": {
+  },"54": {
     "doc": "FAQ",
     "title": "What happens if I don’t renew my subscription?",
     "content": "You keep all your projects and can still open, edit and share them. Your account moves to the free Starter plan, which allows 3 new projects a month. See Account and subscription. ",
     "url": "/docs/faq/#what-happens-if-i-dont-renew-my-subscription",
     
     "relUrl": "/docs/faq/#what-happens-if-i-dont-renew-my-subscription"
-  },"54": {
+  },"55": {
     "doc": "FAQ",
     "title": "FAQ",
     "content": " ",
     "url": "/docs/faq/",
     
     "relUrl": "/docs/faq/"
-  },"55": {
+  },"56": {
     "doc": "Your first project",
     "title": "Your first project",
     "content": "In about 15 minutes you’ll create a project, upload your baseline and proposed results, show compliance and share a report someone can comment on. Before you start . | You’re set up: an InverseHub account, and SimReader installed and signed in. | You have baseline and proposed results: .SIM files from eQUEST, or eplustbl.html from EnergyPlus or OpenStudio, with utility rates in the models. See Prepare your model output. | . Steps . | 1. Create the project in InverseHub | 2. Upload your results from SimReader | 3. Complete Energy Model Information | 4. Fill in Energy Model Inputs | 5. Show compliance | 6. Share the report | . ",
     "url": "/first-project/",
     
     "relUrl": "/first-project/"
-  },"56": {
+  },"57": {
     "doc": "Your first project",
     "title": "1. Create the project in InverseHub",
     "content": ". | Sign in to InverseHub and open the Projects tab. | Select New Project. | Choose the Analysis Type: . | Standard Baseline: your proposed design against an energy code baseline (code compliance, LEED). Pick this if you’re unsure. | Custom Baseline: against a baseline you define. | Parametric Analysis: a base design against energy conservation measures (ECMs). | . | Enter a Project Name. It doesn’t need to be unique. Optionally choose a Client and add a Project Description. | Select Create. | . SimReader lists only pinned projects. Keep the pin switch on next to the project in Projects, or select Pinned on the project page. ",
     "url": "/first-project/#1-create-the-project-in-inversehub",
     
     "relUrl": "/first-project/#1-create-the-project-in-inversehub"
-  },"57": {
+  },"58": {
     "doc": "Your first project",
     "title": "2. Upload your results from SimReader",
     "content": ". | Open SimReader on its Project page. Under Project Name, choose your project. Select Refresh if it isn’t listed yet. | Choose the Modeling Phase these results belong to. The phase and client come from InverseHub; Reload from InverseHub fetches them again. | Check that Analysis Type matches the project. | Add your files: drag them onto the Baseline(s) and Proposed tiles, or select a tile to browse. | Add several baseline runs (for example four orientations) and SimReader averages them. | The first file in each list supplies the utility rates and unmet load hours. Use the arrows to change the order. | . | Select Next: Results. SimReader reads the files and shows the utility rates, energy by end use, total performance and simulation information. | Check the numbers, then select Upload to InverseHub. | . If the phase doesn’t exist on InverseHub yet, SimReader offers to create it. If the phase already has results, it asks before replacing them. ",
     "url": "/first-project/#2-upload-your-results-from-simreader",
     
     "relUrl": "/first-project/#2-upload-your-results-from-simreader"
-  },"58": {
+  },"59": {
     "doc": "Your first project",
     "title": "3. Complete Energy Model Information",
     "content": ". | Refresh the project page in InverseHub. Your results appear under the phase you uploaded, and Simulation Program and Weather File are filled in from the files. | In Energy Model Information, select Edit and choose: . | Energy Code Used: search by name or state. The (i) next to it summarizes what InverseHub does for that code. | Climate Zone and Principal Heating Source. | Rating System: only the compliance paths of the code you chose are listed, plus certifications such as LEED. | . | Select Save. | . ",
     "url": "/first-project/#3-complete-energy-model-information",
     
     "relUrl": "/first-project/#3-complete-energy-model-information"
-  },"59": {
+  },"60": {
     "doc": "Your first project",
     "title": "4. Fill in Energy Model Inputs",
     "content": ". | In Energy Model Inputs, open the menu (⋮) and select Fill Baseline from Energy Code. | On each tab (Envelope, Fenestration, Lighting, Process Load, HVAC System, Domestic Hot Water), choose: . | Add to add the rows you tick, | Override to replace the baseline text of rows you already have, or | Don’t Apply to leave that section alone. | . | Select Apply. The Baseline column fills in from the energy code for your climate zone and building type. | Fill in the Proposed column yourself. | . More in Fill in Energy Model Inputs. ",
     "url": "/first-project/#4-fill-in-energy-model-inputs",
     
     "relUrl": "/first-project/#4-fill-in-energy-model-inputs"
-  },"60": {
+  },"61": {
     "doc": "Your first project",
     "title": "5. Show compliance",
     "content": ". | Under Performance Calculations, select +. | Enter the floor area of each building area type. InverseHub weights the code’s building performance factors (BPFs) by these areas. Then select Add Calculations. | Under Conclusion, select +. InverseHub writes the pass or fail statement from your results. | . The calculation depends on the energy code and rating system. Total Building Performance, the Energy Cost Budget Method and the IgCC performance option each have their own. See Show compliance. ",
     "url": "/first-project/#5-show-compliance",
     
     "relUrl": "/first-project/#5-show-compliance"
-  },"61": {
+  },"62": {
     "doc": "Your first project",
     "title": "6. Share the report",
     "content": ". | View only: select Copy Link at the top of the project page and send it. Anyone with the link can view the phase selected on your project page. | With comments: on the Project Team tab, select Add from Contacts, select the person’s card, then Email Comment PIN. They get an email with the link and a PIN to comment. No account is needed. | As a file: select Download PDF. | . When someone comments, you’ll find it on the Comments tab. See Share and handle comments. What’s next: Projects and phases · How results are calculated . ",
     "url": "/first-project/#6-share-the-report",
     
     "relUrl": "/first-project/#6-share-the-report"
-  },"62": {
+  },"63": {
     "doc": "Glossary",
     "title": "Glossary",
     "content": "Terms you’ll meet in InverseHub and SimReader. Analysis type Standard Baseline, Custom Baseline or Parametric Analysis: what a project compares. Set when you create the project, and again in SimReader. Appendix G The Performance Rating Method of ASHRAE 90.1: the proposed design against a baseline building the standard defines. Appendix I An informative appendix of ASHRAE 90.1-2022 with performance targets in site energy, source energy or carbon instead of energy cost. Baseline building, budget building, standard reference design The comparison building of each path: the baseline building for the Performance Rating Method, the budget building for the Energy Cost Budget Method, the standard reference design for IECC Total Building Performance. BPF (building performance factor) The code’s factor, by building type and climate zone, that sets how much better than the baseline a design must perform (Performance Rating Method, 90.1-2016 and later). Comment PIN The code a modeler emails to a reviewer so they can comment on a shared project. A new PIN replaces the earlier one. DEC and ECB Design energy cost (the proposed design’s) and energy cost budget (the budget building’s), compared by the Energy Cost Budget Method. ECM Energy conservation measure, compared with the base design in a Parametric Analysis project. eGRID subregion The EPA region of the electricity grid that serves the project. It sets the source energy and carbon factors of electricity for the IgCC and some other codes. Exceptional calculation Savings the simulation program can’t model, calculated separately and subtracted from the proposed design. Modeling phase A stage of the project (Schematic Design, Design Development, Construction Documents, Certification Review, Final Approved, Post-Construction). Each keeps its own results and inputs. PCI and PCIt Performance cost index (the proposed design’s energy cost over the baseline building’s) and its target. A design complies when its PCI is at or below the PCIt. PRE The energy cost of the on-site renewable energy a code requires (ASHRAE 90.1-2022 and the codes based on it). It comes off the target or the budget. Process load Energy use the code doesn’t regulate (for example kitchen or computer equipment). Mark process end uses in SimReader with Process. Renewable fraction The share of a building’s energy the IgCC 2021 expects from renewables. It lowers the IgCC 2021 targets. Unmet load hours Hours when a design’s HVAC doesn’t keep the zones at their set points. A total over 300 hours is flagged in red. zEPI Zero energy performance index of the IgCC: the proposed design’s source energy use intensity on a scale where 100 is a typical building and 0 is net zero. ",
     "url": "/reference/glossary/",
     
     "relUrl": "/reference/glossary/"
-  },"63": {
+  },"64": {
     "doc": "Home",
     "title": "How can we help?",
     "content": "InverseHub turns your eQUEST and EnergyPlus results into one online report your team and clients can review: energy and cost by end use, energy code compliance and comments, phase by phase. Start your first project Install SimReader . ",
     "url": "/#how-can-we-help",
     
     "relUrl": "/#how-can-we-help"
-  },"64": {
+  },"65": {
     "doc": "Home",
     "title": "Who are you?",
     "content": "Energy modeler . Upload results, fill the baseline from an energy code, show compliance and share the report. Get started · How-to guides . Reviewer . Someone shared a project with you, maybe with a PIN to comment. Review a shared project . Client . Follow your projects' status and savings, and download their reports. Follow your projects . ",
     "url": "/#who-are-you",
     
     "relUrl": "/#who-are-you"
-  },"65": {
+  },"66": {
     "doc": "Home",
     "title": "How it works",
     "content": ". | Model as usual in eQUEST, EnergyPlus, OpenStudio or DesignBuilder, with utility rates in the model. | Read and upload your baseline and proposed results with SimReader, a free Windows app. | Finish the report in InverseHub: fill in the energy model inputs, then add the performance calculations and the conclusion. | Share it: send a view-only link, invite reviewers to comment with a PIN, or let your client follow the project. | . ",
     "url": "/#how-it-works",
     
     "relUrl": "/#how-it-works"
-  },"66": {
+  },"67": {
     "doc": "Home",
     "title": "Popular topics",
     "content": "Prepare your model output . What SimReader needs from eQUEST and EnergyPlus . Energy codes . Every code and compliance path InverseHub supports . How results are calculated . PCI, BPF, cost budgets and zEPI in plain words . Troubleshooting . What a message means and what to do . ",
     "url": "/#popular-topics",
     
     "relUrl": "/#popular-topics"
-  },"67": {
+  },"68": {
     "doc": "Home",
     "title": "Still stuck?",
     "content": "Send us the project name, the phase and a screenshot of the message. Contact us ",
     "url": "/",
     
     "relUrl": "/"
-  },"68": {
+  },"69": {
     "doc": "Home",
     "title": "Home",
     "content": " ",
     "url": "/",
     
     "relUrl": "/"
-  },"69": {
+  },"70": {
     "doc": "Get started",
     "title": "Get started",
     "content": "New to InverseHub? Set up once, then follow your first project from upload to a shared report. | Set up InverseHub and SimReader: create your account, install SimReader and sign in. About 5 minutes. | Your first project: create a project, upload results, show compliance and share the report. About 15 minutes. | . ",
     "url": "/get-started/",
     
     "relUrl": "/get-started/"
-  },"70": {
+  },"71": {
     "doc": "Reference",
     "title": "Reference",
     "content": "Look-up pages: what InverseHub supports and how it calculates. | Energy codes and compliance paths | How results are calculated | SimReader units | Glossary | . ",
     "url": "/reference/",
     
     "relUrl": "/reference/"
-  },"71": {
+  },"72": {
     "doc": "Modelers",
     "title": "Guides for energy modelers",
     "content": "Task-by-task help, in the order you’ll usually need it. | Prepare your model output: utility rates, eQUEST meter names, the EnergyPlus tables SimReader reads. | Projects and phases: analysis types, modeling phases, clients, pinning. | Read and upload results with SimReader: files, averaging, renewables, exceptional calculations, uploading. | Fill in Energy Model Inputs: the energy code, the rating system, and the baseline filled from the code. | Show compliance: performance calculations and conclusions for each compliance path. | Share and handle comments: links, comment PINs, replies, PDFs and clients. | . ",
     "url": "/modelers/#guides-for-energy-modelers",
     
     "relUrl": "/modelers/#guides-for-energy-modelers"
-  },"72": {
+  },"73": {
     "doc": "Modelers",
     "title": "Modelers",
     "content": " ",
     "url": "/modelers/",
     
     "relUrl": "/modelers/"
-  },"73": {
+  },"74": {
     "doc": "Prepare your model output",
     "title": "Prepare your model output",
     "content": "SimReader reads the reports your simulation already writes. Check these settings before you run the final simulations, so the upload works the first time. On this page . | For every model | eQUEST (DOE-2) | EnergyPlus and OpenStudio . | Output tables SimReader needs | Example utility rates | . | DesignBuilder | Where to find the report files | Units SimReader uses | . ",
     "url": "/modelers/prepare-model-output/",
     
     "relUrl": "/modelers/prepare-model-output/"
-  },"74": {
+  },"75": {
     "doc": "Prepare your model output",
     "title": "For every model",
     "content": ". | Include utility rates. InverseHub compares the designs by energy cost, and SimReader takes the rates from the reports. A model without rates can’t be read. | Use the same rate names in the baseline and proposed models. After reading, SimReader warns you when the rate names differ for a meter, because the two designs would then be priced differently. | Keep unmet load hours low. SimReader shows them for both designs and marks a total over 300 hours in red. | . ",
     "url": "/modelers/prepare-model-output/#for-every-model",
     
     "relUrl": "/modelers/prepare-model-output/#for-every-model"
-  },"75": {
+  },"76": {
     "doc": "Prepare your model output",
     "title": "eQUEST (DOE-2)",
     "content": "SimReader reads the ES-D (energy cost summary) and PS-F (energy end-use summary) reports of the .SIM file. eQUEST writes both by default once the model has utility rates. The ES-D report prints only the first 4 characters of each meter name. Keep meter names to 4 characters (for example EM1, EM1A, FM1), or make sure the first 4 characters differ. SimReader shows a Meter name warning when two meters in one file share their first 4 characters. ",
     "url": "/modelers/prepare-model-output/#equest-doe-2",
     
     "relUrl": "/modelers/prepare-model-output/#equest-doe-2"
-  },"76": {
+  },"77": {
     "doc": "Prepare your model output",
     "title": "EnergyPlus and OpenStudio",
     "content": "SimReader reads three groups of tables in eplustbl.html (or eplustbl.htm): LEED Summary, Building Energy Performance and Tariff Report. If SimReader says Report tables missing, add the objects below to your IDF file and run the simulation again. Output tables SimReader needs . Output:Table:Monthly, Building Energy Performance - Electricity, !- Name 2, !- Digits After Decimal InteriorLights:Electricity, !- Variable or Meter Name 1 SumOrAverage, !- Aggregation Type for Variable or Meter 1 ExteriorLights:Electricity, !- Variable or Meter Name 2 SumOrAverage, !- Aggregation Type for Variable or Meter 2 InteriorEquipment:Electricity, !- Variable or Meter Name 3 SumOrAverage, !- Aggregation Type for Variable or Meter 3 ExteriorEquipment:Electricity, !- Variable or Meter Name 4 SumOrAverage, !- Aggregation Type for Variable or Meter 4 Fans:Electricity, !- Variable or Meter Name 5 SumOrAverage, !- Aggregation Type for Variable or Meter 5 Pumps:Electricity, !- Variable or Meter Name 6 SumOrAverage, !- Aggregation Type for Variable or Meter 6 Heating:Electricity, !- Variable or Meter Name 7 SumOrAverage, !- Aggregation Type for Variable or Meter 7 Cooling:Electricity, !- Variable or Meter Name 8 SumOrAverage, !- Aggregation Type for Variable or Meter 8 HeatRejection:Electricity, !- Variable or Meter Name 9 SumOrAverage, !- Aggregation Type for Variable or Meter 9 Humidifier:Electricity, !- Variable or Meter Name 10 SumOrAverage, !- Aggregation Type for Variable or Meter 10 HeatRecovery:Electricity, !- Variable or Meter Name 11 SumOrAverage, !- Aggregation Type for Variable or Meter 11 WaterSystems:Electricity, !- Variable or Meter Name 12 SumOrAverage, !- Aggregation Type for Variable or Meter 12 Cogeneration:Electricity, !- Variable or Meter Name 13 SumOrAverage, !- Aggregation Type for Variable or Meter 13 Refrigeration:Electricity, !- Variable or Meter Name 14 SumOrAverage; !- Aggregation Type for Variable or Meter 14 Output:Table:Monthly, Building Energy Performance - Natural Gas, !- Name 2, !- Digits After Decimal InteriorEquipment:NaturalGas, !- Variable or Meter Name 1 SumOrAverage, !- Aggregation Type for Variable or Meter 1 ExteriorEquipment:NaturalGas, !- Variable or Meter Name 2 SumOrAverage, !- Aggregation Type for Variable or Meter 2 Heating:NaturalGas, !- Variable or Meter Name 3 SumOrAverage, !- Aggregation Type for Variable or Meter 3 Cooling:NaturalGas, !- Variable or Meter Name 4 SumOrAverage, !- Aggregation Type for Variable or Meter 4 WaterSystems:NaturalGas, !- Variable or Meter Name 5 SumOrAverage, !- Aggregation Type for Variable or Meter 5 Cogeneration:NaturalGas, !- Variable or Meter Name 6 SumOrAverage; !- Aggregation Type for Variable or Meter 6 Output:Table:Monthly, Building Energy Performance - District Heating, !- Name 2, !- Digits After Decimal InteriorLights:DistrictHeating, !- Variable or Meter Name 1 SumOrAverage, !- Aggregation Type for Variable or Meter 1 ExteriorLights:DistrictHeating, !- Variable or Meter Name 2 SumOrAverage, !- Aggregation Type for Variable or Meter 2 InteriorEquipment:DistrictHeating, !- Variable or Meter Name 3 SumOrAverage, !- Aggregation Type for Variable or Meter 3 ExteriorEquipment:DistrictHeating, !- Variable or Meter Name 4 SumOrAverage, !- Aggregation Type for Variable or Meter 4 Fans:DistrictHeating, !- Variable or Meter Name 5 SumOrAverage, !- Aggregation Type for Variable or Meter 5 Pumps:DistrictHeating, !- Variable or Meter Name 6 SumOrAverage, !- Aggregation Type for Variable or Meter 6 Heating:DistrictHeating, !- Variable or Meter Name 7 SumOrAverage, !- Aggregation Type for Variable or Meter 7 Cooling:DistrictHeating, !- Variable or Meter Name 8 SumOrAverage, !- Aggregation Type for Variable or Meter 8 HeatRejection:DistrictHeating, !- Variable or Meter Name 9 SumOrAverage, !- Aggregation Type for Variable or Meter 9 Humidifier:DistrictHeating, !- Variable or Meter Name 10 SumOrAverage, !- Aggregation Type for Variable or Meter 10 HeatRecovery:DistrictHeating, !- Variable or Meter Name 11 SumOrAverage, !- Aggregation Type for Variable or Meter 11 WaterSystems:DistrictHeating, !- Variable or Meter Name 12 SumOrAverage, !- Aggregation Type for Variable or Meter 12 Cogeneration:DistrictHeating, !- Variable or Meter Name 13 SumOrAverage; !- Aggregation Type for Variable or Meter 13 Output:Table:Monthly, Building Energy Performance - District Cooling, !- Name 2, !- Digits After Decimal InteriorLights:DistrictCooling, !- Variable or Meter Name 1 SumOrAverage, !- Aggregation Type for Variable or Meter 1 ExteriorLights:DistrictCooling, !- Variable or Meter Name 2 SumOrAverage, !- Aggregation Type for Variable or Meter 2 InteriorEquipment:DistrictCooling, !- Variable or Meter Name 3 SumOrAverage, !- Aggregation Type for Variable or Meter 3 ExteriorEquipment:DistrictCooling, !- Variable or Meter Name 4 SumOrAverage, !- Aggregation Type for Variable or Meter 4 Fans:DistrictCooling, !- Variable or Meter Name 5 SumOrAverage, !- Aggregation Type for Variable or Meter 5 Pumps:DistrictCooling, !- Variable or Meter Name 6 SumOrAverage, !- Aggregation Type for Variable or Meter 6 Heating:DistrictCooling, !- Variable or Meter Name 7 SumOrAverage, !- Aggregation Type for Variable or Meter 7 Cooling:DistrictCooling, !- Variable or Meter Name 8 SumOrAverage, !- Aggregation Type for Variable or Meter 8 HeatRejection:DistrictCooling, !- Variable or Meter Name 9 SumOrAverage, !- Aggregation Type for Variable or Meter 9 Humidifier:DistrictCooling, !- Variable or Meter Name 10 SumOrAverage, !- Aggregation Type for Variable or Meter 10 HeatRecovery:DistrictCooling, !- Variable or Meter Name 11 SumOrAverage, !- Aggregation Type for Variable or Meter 11 WaterSystems:DistrictCooling, !- Variable or Meter Name 12 SumOrAverage, !- Aggregation Type for Variable or Meter 12 Cogeneration:DistrictCooling, !- Variable or Meter Name 13 SumOrAverage; !- Aggregation Type for Variable or Meter 13 Output:Table:Monthly, Building Energy Performance - Electricity Peak Demand, !- Name 2, !- Digits After Decimal Electricity:Facility, !- Variable or Meter Name 1 Maximum, !- Aggregation Type for Variable or Meter 1 InteriorLights:Electricity, !- Variable or Meter Name 2 ValueWhenMaximumOrMinimum, !- Aggregation Type for Variable or Meter 2 ExteriorLights:Electricity, !- Variable or Meter Name 3 ValueWhenMaximumOrMinimum, !- Aggregation Type for Variable or Meter 3 InteriorEquipment:Electricity, !- Variable or Meter Name 4 ValueWhenMaximumOrMinimum, !- Aggregation Type for Variable or Meter 4 ExteriorEquipment:Electricity, !- Variable or Meter Name 5 ValueWhenMaximumOrMinimum, !- Aggregation Type for Variable or Meter 5 Fans:Electricity, !- Variable or Meter Name 6 ValueWhenMaximumOrMinimum, !- Aggregation Type for Variable or Meter 6 Pumps:Electricity, !- Variable or Meter Name 7 ValueWhenMaximumOrMinimum, !- Aggregation Type for Variable or Meter 7 Heating:Electricity, !- Variable or Meter Name 8 ValueWhenMaximumOrMinimum, !- Aggregation Type for Variable or Meter 8 Cooling:Electricity, !- Variable or Meter Name 9 ValueWhenMaximumOrMinimum, !- Aggregation Type for Variable or Meter 9 HeatRejection:Electricity, !- Variable or Meter Name 10 ValueWhenMaximumOrMinimum, !- Aggregation Type for Variable or Meter 10 Humidifier:Electricity, !- Variable or Meter Name 11 ValueWhenMaximumOrMinimum, !- Aggregation Type for Variable or Meter 11 HeatRecovery:Electricity, !- Variable or Meter Name 12 ValueWhenMaximumOrMinimum, !- Aggregation Type for Variable or Meter 12 WaterSystems:Electricity, !- Variable or Meter Name 13 ValueWhenMaximumOrMinimum, !- Aggregation Type for Variable or Meter 13 Cogeneration:Electricity, !- Variable or Meter Name 14 ValueWhenMaximumOrMinimum; !- Aggregation Type for Variable or Meter 14 Output:Table:Monthly, Building Energy Performance - Natural Gas Peak Demand, !- Name 2, !- Digits After Decimal NaturalGas:Facility, !- Variable or Meter Name 1 Maximum, !- Aggregation Type for Variable or Meter 1 InteriorEquipment:NaturalGas, !- Variable or Meter Name 2 ValueWhenMaximumOrMinimum, !- Aggregation Type for Variable or Meter 2 ExteriorEquipment:NaturalGas, !- Variable or Meter Name 3 ValueWhenMaximumOrMinimum, !- Aggregation Type for Variable or Meter 3 Heating:NaturalGas, !- Variable or Meter Name 4 ValueWhenMaximumOrMinimum, !- Aggregation Type for Variable or Meter 4 Cooling:NaturalGas, !- Variable or Meter Name 5 ValueWhenMaximumOrMinimum, !- Aggregation Type for Variable or Meter 5 WaterSystems:NaturalGas, !- Variable or Meter Name 6 ValueWhenMaximumOrMinimum, !- Aggregation Type for Variable or Meter 6 Cogeneration:NaturalGas, !- Variable or Meter Name 7 ValueWhenMaximumOrMinimum; !- Aggregation Type for Variable or Meter 7 Output:Table:Monthly, Building Energy Performance - District Heating Peak Demand, !- Name 2, !- Digits After Decimal DistrictHeating:Facility, !- Variable or Meter Name 1 Maximum, !- Aggregation Type for Variable or Meter 1 InteriorLights:DistrictHeating, !- Variable or Meter Name 2 ValueWhenMaximumOrMinimum, !- Aggregation Type for Variable or Meter 2 ExteriorLights:DistrictHeating, !- Variable or Meter Name 3 ValueWhenMaximumOrMinimum, !- Aggregation Type for Variable or Meter 3 InteriorEquipment:DistrictHeating, !- Variable or Meter Name 4 ValueWhenMaximumOrMinimum, !- Aggregation Type for Variable or Meter 4 ExteriorEquipment:DistrictHeating, !- Variable or Meter Name 5 ValueWhenMaximumOrMinimum, !- Aggregation Type for Variable or Meter 5 Fans:DistrictHeating, !- Variable or Meter Name 6 ValueWhenMaximumOrMinimum, !- Aggregation Type for Variable or Meter 6 Pumps:DistrictHeating, !- Variable or Meter Name 7 ValueWhenMaximumOrMinimum, !- Aggregation Type for Variable or Meter 7 Heating:DistrictHeating, !- Variable or Meter Name 8 ValueWhenMaximumOrMinimum, !- Aggregation Type for Variable or Meter 8 Cooling:DistrictHeating, !- Variable or Meter Name 9 ValueWhenMaximumOrMinimum, !- Aggregation Type for Variable or Meter 9 HeatRejection:DistrictHeating, !- Variable or Meter Name 10 ValueWhenMaximumOrMinimum, !- Aggregation Type for Variable or Meter 10 Humidifier:DistrictHeating, !- Variable or Meter Name 11 ValueWhenMaximumOrMinimum, !- Aggregation Type for Variable or Meter 11 HeatRecovery:DistrictHeating, !- Variable or Meter Name 12 ValueWhenMaximumOrMinimum, !- Aggregation Type for Variable or Meter 12 WaterSystems:DistrictHeating, !- Variable or Meter Name 13 ValueWhenMaximumOrMinimum, !- Aggregation Type for Variable or Meter 13 Cogeneration:DistrictHeating, !- Variable or Meter Name 14 ValueWhenMaximumOrMinimum; !- Aggregation Type for Variable or Meter 14 Output:Table:Monthly, Building Energy Performance - District Cooling Peak Demand, !- Name 2, !- Digits After Decimal DistrictCooling:Facility, !- Variable or Meter Name 1 Maximum, !- Aggregation Type for Variable or Meter 1 InteriorLights:DistrictCooling, !- Variable or Meter Name 2 ValueWhenMaximumOrMinimum, !- Aggregation Type for Variable or Meter 2 ExteriorLights:DistrictCooling, !- Variable or Meter Name 3 ValueWhenMaximumOrMinimum, !- Aggregation Type for Variable or Meter 3 InteriorEquipment:DistrictCooling, !- Variable or Meter Name 4 ValueWhenMaximumOrMinimum, !- Aggregation Type for Variable or Meter 4 ExteriorEquipment:DistrictCooling, !- Variable or Meter Name 5 ValueWhenMaximumOrMinimum, !- Aggregation Type for Variable or Meter 5 Fans:DistrictCooling, !- Variable or Meter Name 6 ValueWhenMaximumOrMinimum, !- Aggregation Type for Variable or Meter 6 Pumps:DistrictCooling, !- Variable or Meter Name 7 ValueWhenMaximumOrMinimum, !- Aggregation Type for Variable or Meter 7 Heating:DistrictCooling, !- Variable or Meter Name 8 ValueWhenMaximumOrMinimum, !- Aggregation Type for Variable or Meter 8 Cooling:DistrictCooling, !- Variable or Meter Name 9 ValueWhenMaximumOrMinimum, !- Aggregation Type for Variable or Meter 9 HeatRejection:DistrictCooling, !- Variable or Meter Name 10 ValueWhenMaximumOrMinimum, !- Aggregation Type for Variable or Meter 10 Humidifier:DistrictCooling, !- Variable or Meter Name 11 ValueWhenMaximumOrMinimum, !- Aggregation Type for Variable or Meter 11 HeatRecovery:DistrictCooling, !- Variable or Meter Name 12 ValueWhenMaximumOrMinimum, !- Aggregation Type for Variable or Meter 12 WaterSystems:DistrictCooling, !- Variable or Meter Name 13 ValueWhenMaximumOrMinimum, !- Aggregation Type for Variable or Meter 13 Cogeneration:DistrictCooling, !- Variable or Meter Name 14 ValueWhenMaximumOrMinimum; !- Aggregation Type for Variable or Meter 14 Output:Table:SummaryReports, AllSummary; !- Report 1 Name . Example utility rates . Your model needs utility rates for SimReader to read it. If it has none yet, these two flat rates (electricity and natural gas) are an example to adapt. Use your project’s actual tariffs for compliance work. UtilityCost:Tariff, Example A FlatEnergyCharge, ! Name ElectricityPurchased:Facility, !- Output Meter Name kWh, ! Conversion Factor Choice , ! Energy Conversion Factor , ! Demand Conversion Factor , ! Time of Use Period Schedule Name , ! Season Schedule Name , ! Month Schedule Name , ! Demand Window Length 0.0; ! Monthly Charge or Variable Name UtilityCost:Charge:Simple, FlatEnergyCharge, ! Charge Variable Name Example A FlatEnergyCharge, ! Tariff Name totalEnergy, ! Source Variable Annual, ! Season EnergyCharges, ! Category Variable Name 0.095; ! Cost Per Unit Value or Variable Name UtilityCost:Tariff, FlatEnergyCharge-Gas, !- Name NaturalGas:Facility, !- Output Meter Name Therm, !- Conversion Factor Choice , !- Energy Conversion Factor , !- Demand Conversion Factor , !- Time of Use Period Schedule Name , !- Season Schedule Name , !- Month Schedule Name , !- Demand Window Length 0.0; !- Monthly Charge or Variable Name UtilityCost:Charge:Simple, SimpleEnergyCharge, !- Utility Cost Charge Simple Name FlatEnergyCharge-Gas, !- Tariff Name totalEnergy, !- Source Variable Annual, !- Season EnergyCharges, !- Category Variable Name 0.50; . ",
     "url": "/modelers/prepare-model-output/#energyplus-and-openstudio",
     
     "relUrl": "/modelers/prepare-model-output/#energyplus-and-openstudio"
-  },"77": {
+  },"78": {
     "doc": "Prepare your model output",
     "title": "DesignBuilder",
     "content": "DesignBuilder runs EnergyPlus, so the EnergyPlus tables above apply. To get the report file, open Simulation &gt; Summary and select Export in the Help panel. ",
     "url": "/modelers/prepare-model-output/#designbuilder",
     
     "relUrl": "/modelers/prepare-model-output/#designbuilder"
-  },"78": {
+  },"79": {
     "doc": "Prepare your model output",
     "title": "Where to find the report files",
     "content": "| Software | File | Where | . | eQUEST | .SIM (one per run) | The folder of the .pd2 and .inp files, usually Documents\\eQUEST 3-65 Projects\\{project} | . | EnergyPlus | eplustbl.html | The folder of the .idf file, or the output folder you chose for the run | . | OpenStudio | eplustbl.html or eplustbl.htm | {folder of the .osm}\\{model name}\\reports\\ or \\run\\ | . | DesignBuilder | eplustbl.htm | Exported from Simulation &gt; Summary (see above) | . ",
     "url": "/modelers/prepare-model-output/#where-to-find-the-report-files",
     
     "relUrl": "/modelers/prepare-model-output/#where-to-find-the-report-files"
-  },"79": {
+  },"80": {
     "doc": "Prepare your model output",
     "title": "Units SimReader uses",
     "content": "SimReader converts every report to the same units, whatever the report uses (joules, GJ, MMBtu and so on). See SimReader units. Next: Read and upload results with SimReader . ",
     "url": "/modelers/prepare-model-output/#units-simreader-uses",
     
     "relUrl": "/modelers/prepare-model-output/#units-simreader-uses"
-  },"80": {
+  },"81": {
     "doc": "Projects and phases",
     "title": "Projects and phases",
     "content": "A project holds one building’s results, phase by phase, from Schematic Design to Post-Construction. On this page . | Choose the analysis type | Your plan’s project limit | Pin the projects you’re working on | Modeling phases | Project details | Clients and contacts | Delete a project | . ",
     "url": "/modelers/projects-and-phases/",
     
     "relUrl": "/modelers/projects-and-phases/"
-  },"81": {
+  },"82": {
     "doc": "Projects and phases",
     "title": "Choose the analysis type",
     "content": "You choose it in New Project, and SimReader must use the same one when it uploads. | Analysis type | Use it for | First tab of the project | . | Standard Baseline: Energy Code Baseline vs. Proposed Design | Code compliance and LEED, against the baseline an energy code defines | Summary Statement | . | Custom Baseline: User-Defined Baseline vs. Proposed Design | A comparison against a baseline you define | Summary Statement | . | Parametric Analysis: Base Design vs. ECMs | Energy conservation measures compared with a base design | Base Design | . ",
     "url": "/modelers/projects-and-phases/#choose-the-analysis-type",
     
     "relUrl": "/modelers/projects-and-phases/#choose-the-analysis-type"
-  },"82": {
+  },"83": {
     "doc": "Projects and phases",
     "title": "Your plan’s project limit",
     "content": "Each plan allows a number of new projects a month (3 on the free Starter plan). New Project shows how many you have left. See Subscription plans. ",
     "url": "/modelers/projects-and-phases/#your-plans-project-limit",
     
     "relUrl": "/modelers/projects-and-phases/#your-plans-project-limit"
-  },"83": {
+  },"84": {
     "doc": "Projects and phases",
     "title": "Pin the projects you’re working on",
     "content": "Pinned projects are listed on your Home tab, and they’re the only ones SimReader lists under Project Name. | On the Projects tab, use the switch next to the project’s name. | On the project page, select Pinned to unpin it, or Pin to Home to pin it. | . ",
     "url": "/modelers/projects-and-phases/#pin-the-projects-youre-working-on",
     
     "relUrl": "/modelers/projects-and-phases/#pin-the-projects-youre-working-on"
-  },"84": {
+  },"85": {
     "doc": "Projects and phases",
     "title": "Modeling phases",
     "content": "Each phase keeps its own results, model inputs, calculations and conclusion. Choose the phase at the top of the project page under Modeling Phase. The phases are: . | Schematic Design: Preliminary Model, Final Model | Design Development: Preliminary Model, Final Model | Construction Documents: Preliminary Model, Final Model | Certification Review: Preliminary Model, Final Model | Final Approved Model | Post-Construction Model | . SimReader uploads results to the phase you choose in its Modeling Phase list, and offers to create the phase if it doesn’t exist yet. Use the Phase menu next to the phase list to: . | Add a Phase: optionally Start from a copy of the current phase, which copies the model inputs. | Move This Phase: move this phase’s content to a phase that’s still empty. | Remove This Phase: a project needs at least two phases. To bring a removed phase back, add it again with Add a Phase, or upload it again from SimReader. | . ",
     "url": "/modelers/projects-and-phases/#modeling-phases",
     
     "relUrl": "/modelers/projects-and-phases/#modeling-phases"
-  },"85": {
+  },"86": {
     "doc": "Projects and phases",
     "title": "Project details",
     "content": ". | General Information (project name, address, building type and floor areas): select Edit on its card. The building type and areas are used by Fill Baseline and the performance calculations. | Description and Status: on the Projects tab, open the project’s menu (⋮) and select Edit Description or Update Status. The status shows on your Home tab and to your client. | Copy Inputs from Another Project: in Energy Model Inputs, open the menu (⋮). It copies the input rows from one of your other projects. | Design alternatives: select + after the tabs to attach another of your projects as an alternative. It appears as its own tab. | . ",
     "url": "/modelers/projects-and-phases/#project-details",
     
     "relUrl": "/modelers/projects-and-phases/#project-details"
-  },"86": {
+  },"87": {
     "doc": "Projects and phases",
     "title": "Clients and contacts",
     "content": ". | Clients tab: add the companies you work for. Assign a client to a project with Assign Client in the project’s menu (⋮) on the Projects tab. | Contacts tab: the people you work with. A contact linked to a client can get an invitation (Send Invitations) to create an InverseHub account and follow that client’s projects. See Clients. | . ",
     "url": "/modelers/projects-and-phases/#clients-and-contacts",
     
     "relUrl": "/modelers/projects-and-phases/#clients-and-contacts"
-  },"87": {
+  },"88": {
     "doc": "Projects and phases",
     "title": "Delete a project",
     "content": "On the Projects tab, open the project’s menu (⋮) and select Delete. This deletes all its phases and results. Next: Read and upload results with SimReader . ",
     "url": "/modelers/projects-and-phases/#delete-a-project",
     
     "relUrl": "/modelers/projects-and-phases/#delete-a-project"
-  },"88": {
+  },"89": {
     "doc": "Reviewers",
     "title": "Review a shared project",
-    "content": "A modeler shared an InverseHub report with you. You can read it without an account; to comment, you need the PIN from your invitation email. On this page . | Read the report | Comment on the report | Replies | . ",
+    "content": "A modeler shared an InverseHub report with you. You can read it without an account; to comment, you need the PIN from your invitation email. On this page . | Read the report | Comment on the report | Send your comments to the modeler | Replies | . ",
     "url": "/reviewers/#review-a-shared-project",
     
     "relUrl": "/reviewers/#review-a-shared-project"
-  },"89": {
+  },"90": {
     "doc": "Reviewers",
     "title": "Read the report",
-    "content": "Open the link from the modeler’s email or message. The page shows one modeling phase of the project: general and energy model information, model inputs, energy use and cost by end use, the compliance calculations and the conclusion. | Download PDF saves the report as a file. | Copy Link copies the page’s link, to pass it on to a colleague. | The Comments tab lists every comment on this phase, with the modeler’s replies. | . ",
+    "content": "Open the link from the modeler’s email or message. The page shows one modeling phase of the project, starting with a summary. | The summary shows where the project stands: its status and the steps still to come, the modeler and their email, the energy cost and site energy savings, the energy code, and when the results were uploaded. It ends with the start of the modeler’s conclusion. Select Read the full conclusion to jump to all of it. | The section links under the summary take you to each part of the report: General, Model Inputs, Utility Rates, End Use, Monthly, Performance, Calculations, Conclusion and others, depending on the project. A number on a link counts the open comments in that section. Top at the bottom right brings you back up. | Model input rows with nothing entered are left out, so you only read what the modeler filled in. | Download PDF saves the report as a file. | Copy Link copies the page’s link, to pass it on to a colleague. | The Comments tab lists every comment on this phase, with the modeler’s replies. | . ",
     "url": "/reviewers/#read-the-report",
     
     "relUrl": "/reviewers/#read-the-report"
-  },"90": {
+  },"91": {
     "doc": "Reviewers",
     "title": "Comment on the report",
-    "content": ". | Select Add Comments. | Enter the email address the invitation was sent to and the PIN from that email, then select Submit. | Click the table cell you want to comment on, type your comment and save it. | . You can edit or delete your own comments: select one and choose Edit Your Comment. Other people’s comments are read-only for you. No PIN? Ask the modeler who shared the page. A new PIN replaces the earlier one, so always use the most recent email. ",
+    "content": ". | Select Add Comments. | Enter the email address the invitation was sent to and the PIN from that email, then select Submit. | Point to the value you want to comment on and click the comment icon that appears next to it. On a phone, tap the value. | Type your comment and save it. | . You can edit or delete your own comments: select one in the table, or select Edit next to it on the Comments tab, and choose Edit Your Comment. Other people’s comments are read-only for you. No PIN? Ask the modeler who shared the page. A new PIN replaces the earlier one, so always use the most recent email. ",
     "url": "/reviewers/#comment-on-the-report",
     
     "relUrl": "/reviewers/#comment-on-the-report"
-  },"91": {
+  },"92": {
+    "doc": "Reviewers",
+    "title": "Send your comments to the modeler",
+    "content": "When you’ve finished commenting, tell the modeler in one go: . | Open the Comments tab. | Select Send my comments to the modeler. | . The modeler gets one email listing your open comments on this phase, with a link to the project. The button shows when you have open comments on the phase. If you add more later, send again: each email lists all your comments that are still open. On the Comments tab you can also: . | choose All, Open or Resolved to filter the list; | select Show in the table to jump to the value a comment is on, highlighted for a moment. | . ",
+    "url": "/reviewers/#send-your-comments-to-the-modeler",
+    
+    "relUrl": "/reviewers/#send-your-comments-to-the-modeler"
+  },"93": {
     "doc": "Reviewers",
     "title": "Replies",
-    "content": "The modeler sees your comments on their project and replies there. Their replies appear under your comment and on the Comments tab. A resolved comment means the modeler considers it addressed. ",
+    "content": "When the modeler replies to your comment or resolves it, you get an email with their reply and a link back to the report. The reply also appears under your comment and on the Comments tab. A resolved comment means the modeler considers it addressed. ",
     "url": "/reviewers/#replies",
     
     "relUrl": "/reviewers/#replies"
-  },"92": {
+  },"94": {
     "doc": "Reviewers",
     "title": "Reviewers",
     "content": " ",
     "url": "/reviewers/",
     
     "relUrl": "/reviewers/"
-  },"93": {
+  },"95": {
     "doc": "Set up",
     "title": "Set up InverseHub and SimReader",
     "content": "You need an InverseHub account to create projects, and SimReader to upload results from your computer. On this page . | 1. Create your InverseHub account | 2. Install SimReader | 3. Sign in to SimReader | Before your first upload | . ",
     "url": "/get-started/set-up/#set-up-inversehub-and-simreader",
     
     "relUrl": "/get-started/set-up/#set-up-inversehub-and-simreader"
-  },"94": {
+  },"96": {
     "doc": "Set up",
     "title": "1. Create your InverseHub account",
     "content": ". | Go to inversehub.com and select Sign up. | Enter your email and a password. The password needs at least 6 characters, with an uppercase letter, a lowercase letter, a digit and a symbol. | Open the confirmation email and select the link. You can sign in once your email is confirmed. | . Every account starts on the free Starter plan, with 3 new projects a month. See Subscription plans for more. ",
     "url": "/get-started/set-up/#1-create-your-inversehub-account",
     
     "relUrl": "/get-started/set-up/#1-create-your-inversehub-account"
-  },"95": {
+  },"97": {
     "doc": "Set up",
     "title": "2. Install SimReader",
     "content": "SimReader is a free Windows app that reads your simulation reports and uploads them to InverseHub. | Install it from the Microsoft Store. | . ",
     "url": "/get-started/set-up/#2-install-simreader",
     
     "relUrl": "/get-started/set-up/#2-install-simreader"
-  },"96": {
+  },"98": {
     "doc": "Set up",
     "title": "3. Sign in to SimReader",
     "content": ". | Open SimReader and select Settings at the bottom of the side menu. | Under User, select Sign in. | Enter your InverseHub email and password, then select Sign in. Tick Remember me to stay signed in on this computer. | . When you’re signed in, the User section shows your email and a Sign out button. ",
     "url": "/get-started/set-up/#3-sign-in-to-simreader",
     
     "relUrl": "/get-started/set-up/#3-sign-in-to-simreader"
-  },"97": {
+  },"99": {
     "doc": "Set up",
     "title": "Before your first upload",
     "content": ". | Utility rates in the model. InverseHub compares the designs by energy cost, so each model needs its utility rates. | The right reports. eQUEST writes what SimReader needs by default. EnergyPlus and OpenStudio need a few extra output tables. See Prepare your model output. | . Next: Your first project . ",
     "url": "/get-started/set-up/#before-your-first-upload",
     
     "relUrl": "/get-started/set-up/#before-your-first-upload"
-  },"98": {
+  },"100": {
     "doc": "Set up",
     "title": "Set up",
     "content": " ",
     "url": "/get-started/set-up/",
     
     "relUrl": "/get-started/set-up/"
-  },"99": {
+  },"101": {
     "doc": "Share and handle comments",
     "title": "Share and handle comments",
     "content": "Share a phase as a link, let reviewers comment with a PIN, answer them, and send a PDF. On this page . | Three ways to share | Invite people to comment | Answer comments | Download a PDF | Choose what reviewers see | . ",
     "url": "/modelers/share/",
     
     "relUrl": "/modelers/share/"
-  },"100": {
+  },"102": {
     "doc": "Share and handle comments",
     "title": "Three ways to share",
     "content": "| You want them to | Do this | They need | . | View the report | Copy Link at the top of the project page, then send the link | Nothing. Anyone with the link can view it. | . | Comment on it | Email them a comment PIN from the Project Team tab | The link and PIN from the email. No account. | . | Follow all their projects | Invite your client’s contacts from the Contacts tab | An InverseHub client account. See Clients. | . The link always shows the phase currently selected under Modeling Phase on your project page. If you switch to another phase later, people with the link see that one. ",
     "url": "/modelers/share/#three-ways-to-share",
     
     "relUrl": "/modelers/share/#three-ways-to-share"
-  },"101": {
+  },"103": {
     "doc": "Share and handle comments",
     "title": "Invite people to comment",
     "content": ". | On the project page, open the Project Team tab. | Select Add from Contacts and choose the people. Add new people on the Contacts tab of your Home page first. | Select their cards (click a card to select it), then Email Comment PIN. | . Each person gets an email with the link and a new PIN. A PIN sent to them earlier stops working, so send a new one whenever someone loses theirs. ",
     "url": "/modelers/share/#invite-people-to-comment",
     
     "relUrl": "/modelers/share/#invite-people-to-comment"
-  },"102": {
+  },"104": {
     "doc": "Share and handle comments",
     "title": "Answer comments",
-    "content": "Reviewers comment on a table cell. A comment icon then appears in that cell, and the Comments tab lists every comment of the phase. | Select the comment to open it. | Type your reply and select Resolve to close it, or keep it open. | Reopen brings back a resolved comment, with your reply kept. | . ",
+    "content": "Reviewers comment on a table cell. A comment icon then appears in that cell, and the Comments tab lists every comment of the phase. When a reviewer or client selects Send my comments to the modeler, you get one email listing their open comments, with a link to the project. | Select the comment to open it. | Type your reply and select Resolve to close it, or keep it open. | Reopen brings back a resolved comment, with your reply kept. | . The person who wrote the comment gets an email with your reply when you save a new or changed reply, and when you resolve the comment. ",
     "url": "/modelers/share/#answer-comments",
     
     "relUrl": "/modelers/share/#answer-comments"
-  },"103": {
+  },"105": {
     "doc": "Share and handle comments",
     "title": "Download a PDF",
     "content": "Select Download PDF at the top of the project page. The file is named “Project – Phase – date”. It shows the same sections as the review page, including the charts and cards you’ve switched on. ",
     "url": "/modelers/share/#download-a-pdf",
     
     "relUrl": "/modelers/share/#download-a-pdf"
-  },"104": {
+  },"106": {
     "doc": "Share and handle comments",
     "title": "Choose what reviewers see",
     "content": ". | Charts: each monthly chart has a Shown / Hidden switch. | Unmet Load Hours: hidden until you switch it on. | Phase: reviewers see the phase selected on your project page. Select the phase to share before you send the link. | . Next: What reviewers see . ",
     "url": "/modelers/share/#choose-what-reviewers-see",
     
     "relUrl": "/modelers/share/#choose-what-reviewers-see"
-  },"105": {
+  },"107": {
     "doc": "SimReader units",
     "title": "SimReader units",
     "content": "SimReader converts every report into these units, whatever the report itself uses (joules, GJ, MMBtu and so on), so baseline and proposed results always line up. | Energy type | Consumption | Peak demand | . | Electricity | kWh | kW | . | Natural gas | therm | therm/h | . | Gasoline | therm | therm/h | . | Fuel oil | gal | gal/min | . | Propane | kBtu | kBtu/h | . | Diesel | kBtu | kBtu/h | . | Coal | kBtu | kBtu/h | . | Other fuel | kBtu | kBtu/h | . | District cooling | MBtu | MBtu/h | . | District heating | MBtu | MBtu/h | . Totals across energy types (for example “Baseline in kBtu” in Total Energy Performance) are in kBtu. ",
     "url": "/reference/simreader-units/",
     
     "relUrl": "/reference/simreader-units/"
-  },"106": {
+  },"108": {
     "doc": "Read and upload results with SimReader",
     "title": "Read and upload results with SimReader",
     "content": "SimReader reads your baseline and proposed reports, shows the results for you to check, then uploads them to a phase of your InverseHub project. On this page . | The Project page . | Which files go where | . | The Results page | Upload to InverseHub | Save your SimReader project | After the upload: split an end use | . ",
     "url": "/modelers/simreader/",
     
     "relUrl": "/modelers/simreader/"
-  },"107": {
+  },"109": {
     "doc": "Read and upload results with SimReader",
     "title": "The Project page",
     "content": ". | Project Name: your pinned InverseHub projects. Select Refresh to reload the list after you pin a project. | Modeling Phase and Client Name: filled in from InverseHub. Reload from InverseHub fetches them again. If you change the client here, the upload changes it for every phase of the project. | Analysis Type: must match the project (Standard Baseline, Custom Baseline or Parametric Analysis). | Files: drag .SIM, .htm or .html files onto the tiles, or select a tile to browse. | . Which files go where . | Analysis type | Left tile | Right tile | . | Standard or Custom Baseline | Baseline(s): one or more baseline runs. Several runs (such as the four orientations) are averaged. | Proposed: one file. If you add several, they’re averaged too. | . | Parametric Analysis | Base Design: one file. | ECM(s): one file per measure, numbered in list order. | . The order matters. The first file in each list supplies the utility rates, the DOE-2 or EnergyPlus version and the unmet load hours. Use the up and down arrows, or drag a file within its list, to reorder. Remove takes the selected files off the list. Select Next: Results when the files are in place. ",
     "url": "/modelers/simreader/#the-project-page",
     
     "relUrl": "/modelers/simreader/#the-project-page"
-  },"108": {
+  },"110": {
     "doc": "Read and upload results with SimReader",
     "title": "The Results page",
     "content": ". SimReader reads the files as you arrive, and again whenever the file list changes. Reload reads them again, for example after you rerun a simulation. ‹ Edit files goes back to the Project page. Check each section before uploading: . | Utility Rates: the rate of each meter in each design. Untick Include? to leave a meter out. If the baseline and proposed rate names differ, SimReader warns you after reading. | On-Site Renewable Energy Production and Exceptional Calculation: select + Add to enter them. They’re subtracted from the proposed design. The annual energy cost is calculated from the energy and the proposed design’s rate until you type your own. | Energy Summary by End Use: energy, demand and savings by end use. Tick Process for end uses that are process loads. | Total Energy Performance and Simulation Information: totals, process load share and unmet load hours. A total over 300 unmet hours is shown in red. | . ",
     "url": "/modelers/simreader/#the-results-page",
     
     "relUrl": "/modelers/simreader/#the-results-page"
-  },"109": {
+  },"111": {
     "doc": "Read and upload results with SimReader",
     "title": "Upload to InverseHub",
     "content": ". | Select Upload to InverseHub. You need to be signed in (Settings &gt; Sign in). | If the phase doesn’t exist on InverseHub yet, SimReader asks whether to create it. If it already has results, SimReader asks before replacing them. | Refresh the project page in InverseHub to see the new results. | . The upload also fills Simulation Program and Weather File in the project’s Energy Model Information. ",
     "url": "/modelers/simreader/#upload-to-inversehub",
     
     "relUrl": "/modelers/simreader/#upload-to-inversehub"
-  },"110": {
+  },"112": {
     "doc": "Read and upload results with SimReader",
     "title": "Save your SimReader project",
     "content": "Use Save or Save As (Ctrl+S, Ctrl+Shift+S) to keep the file lists, the entries you added and the results in a .ine file. Open (Ctrl+O) brings them back later. ",
     "url": "/modelers/simreader/#save-your-simreader-project",
     
     "relUrl": "/modelers/simreader/#save-your-simreader-project"
-  },"111": {
+  },"113": {
     "doc": "Read and upload results with SimReader",
     "title": "After the upload: split an end use",
     "content": "Simulation programs have a fixed set of end uses. To report part of one separately, for example the parking garage fans inside miscellaneous equipment: . | In InverseHub, on Energy Summary by End Use, select Split an end use (+). | Choose the end use to split, tick Process load if the new end use is one, and enter its consumption and demand. | Select the new end use’s name later to edit or delete it. | . Splitting isn’t available for Parametric Analysis projects. Next: Fill in Energy Model Inputs . ",
     "url": "/modelers/simreader/#after-the-upload-split-an-end-use",
     
     "relUrl": "/modelers/simreader/#after-the-upload-split-an-end-use"
-  },"112": {
+  },"114": {
     "doc": "Contact us",
     "title": "Contact us",
     "content": "Write to the address that fits your question. Help with InverseHub or SimReader support@inversenergy.com Billing and payments billing-support@inversenergy.com General questions help@inversenergy.com Press press@inversenergy.com For a technical issue, include the project name, the modeling phase, and a screenshot of any message. For a SimReader read problem, attach the report file if you can. InversEnergy, Inc. · 11 Nathan Pratt Drive, Concord, MA · inversenergy.com . ",
     "url": "/docs/technical-support/",
     
     "relUrl": "/docs/technical-support/"
-  },"113": {
+  },"115": {
     "doc": "Troubleshooting",
     "title": "Troubleshooting",
     "content": "Find the message you see, then what to do about it. On this page . | SimReader: reading files | SimReader: signing in and uploading | InverseHub | . ",
     "url": "/troubleshooting/",
     
     "relUrl": "/troubleshooting/"
-  },"114": {
+  },"116": {
     "doc": "Troubleshooting",
     "title": "SimReader: reading files",
     "content": "| Message | What to do | . | Report tables missing: this EnergyPlus report is missing tables SimReader needs | Add the output tables to the IDF and rerun the simulation. See EnergyPlus and OpenStudio. | . | ES-D report missing: the .sim file has no ES-D report | The eQUEST model has no utility rates. Add them and rerun the simulation. | . | Meter name warning: meters with the same first 4 characters | eQUEST’s ES-D report keeps only 4 characters of a meter name. Rename one meter in the model so the first 4 characters differ. | . | Utility rate warning after reading | The baseline and proposed models use different rate names for a meter, so the designs are priced differently. Check the rates in both models. | . | File not found | The file was moved or renamed. Update the file list on the Project page. | . | Read error or Report files can’t be read | Check that the simulation finished and the file is complete, then select Reload. | . | More than one proposed file | The proposed results are averaged. Keep one file unless you mean to average. | . | More than one base design file | Parametric Analysis uses only the first base design file. | . | Files missing: add the base design file | A Parametric Analysis needs a base design file before it can read the ECMs. | . | Open failed | The .ine file isn’t a SimReader project or is damaged. | . ",
     "url": "/troubleshooting/#simreader-reading-files",
     
     "relUrl": "/troubleshooting/#simreader-reading-files"
-  },"115": {
+  },"117": {
     "doc": "Troubleshooting",
     "title": "SimReader: signing in and uploading",
     "content": "| Message | What to do | . | Sign in required | Go to Settings &gt; Sign in. | . | The email or password is incorrect | Check both. If you just signed up, confirm your email first. | . | No pinned projects | Pin the project in InverseHub, then select Refresh in SimReader. See Pin the projects you’re working on. | . | No project selected | Choose the project on the Project page, then upload again. | . | Create a modeling phase? | The phase doesn’t exist on InverseHub yet. Select Create and upload. | . | Replace results on InverseHub? | The phase already has results. Select Replace to replace them. | . | Change the client? | The client you chose differs from InverseHub’s. The change applies to every phase of the project. | . | Upload failed | Sign out and sign in again under Settings, then try again. If it still fails, email support@inversenergy.com. | . | Upload stopped: more than one phase with this name | Email support@inversenergy.com with the project name. | . | The maximum number of projects | Your plan’s monthly project limit is reached. See Subscription plans. | . ",
     "url": "/troubleshooting/#simreader-signing-in-and-uploading",
     
     "relUrl": "/troubleshooting/#simreader-signing-in-and-uploading"
-  },"116": {
+  },"118": {
     "doc": "Troubleshooting",
     "title": "InverseHub",
     "content": "| What you see | What to do | . | New results don’t appear after an upload | Refresh the page, and check the Modeling Phase selected at the top. | . | A path you need isn’t in the Rating System list | Each code lists only its own compliance paths. Check the Energy Code Used. For an IECC project that uses ASHRAE 90.1 instead, choose the 90.1 edition as the code. | . | “Select a BPF … under Performance Calculations first” | Add the performance calculation (+) before the conclusion. | . | “Enter the required energy credits … first” | Add the cost budget calculation (+) with the credits, then the conclusion. | . | “Select the eGRID subregion under zEPI Calculations first” | Add the zEPI calculation (+) with the subregion, then the conclusion. | . | “InverseHub has no tables for this code and climate zone yet” in Fill Baseline | Fill those Baseline rows yourself. See What gets filled. | . | Values like “x.xx EER” after Fill Baseline | They’re placeholders. Replace them with your project’s values. | . | A red note that the code doesn’t allow the method | You picked a calculation method the code doesn’t use. The result is for reference only. Pick the code’s method in the calculation dialog. | . | Monthly Project Limit Reached | Wait for next month’s reset, or upgrade your plan. See Subscription plans. | . Still stuck? Email support@inversenergy.com with the project name, the phase and a screenshot of the message. ",
