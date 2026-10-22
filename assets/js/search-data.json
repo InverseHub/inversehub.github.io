@@ -8,7 +8,7 @@
   },"1": {
     "doc": "What's new",
     "title": "October 2026",
-    "content": "Energy codes and compliance . | More energy codes: Chicago 2022, Minnesota 2024, New York State 2020, New York City 2020 and 2025, and Oregon 2021 and 2025, with their own rules and building performance factors. See Energy codes and compliance paths. | Each code lists only its own compliance paths under Rating System. To use the ASHRAE 90.1 alternative an IECC edition allows, choose that 90.1 edition as the energy code. | Performance Calculations (formerly “PCI &amp; PCIt Calculations”): pick the cost index or an energy index. ASHRAE 90.1-2022 and Oregon 2025 offer site energy, source energy or carbon, with optional local conversion factors. 90.1-2022 also counts the code-required on-site solar. | Energy Cost Budget Method and Total Building Performance have their own calculations, with each edition’s limit and renewables rule. | . Fill Baseline from Energy Code . | The baseline HVAC system now follows the compliance path. The Energy Cost Budget Method uses the budget systems and IECC Total Building Performance the standard reference design systems, both pre-selected from your proposed design. | IECC 2009 and 2012 now fill the envelope and lighting from their own tables. | Chicago 2022 and New York State 2020 fill Total Building Performance from their base IECC edition. | . SimReader . | Drag files onto the Baseline and Proposed tiles, and reorder them with the arrows or by dragging. | Next: Results reads the files for you. SimReader warns when the baseline and proposed rate names differ. | Unmet load hours and process loads are shown as tables. Unmet load hours upload to InverseHub, where an Unmet Load Hours card can show them. | On-site renewables and exceptional calculations get their annual cost from the proposed design’s rate until you type your own. | . Reviews and comments . | A summary at the top of the review page: the status and the steps to come, the modeler, the savings, the energy code, the upload date and the start of the conclusion, then links to each section with its open comments. See Reviewers. | Send my comments to the modeler on the Comments tab emails the modeler your open comments in one message. Commenters get an email when the modeler replies or resolves a comment. | The Comments tab filters by All, Open or Resolved, and Show in the table jumps to a comment’s value. | Clients see Your modeler and Needs your attention on their Home page, and Open review and Update status on each project. See Clients. | . Account . | Three plans (Starter, Basic and Business), with upgrades, scheduled downgrades, cancellation to the end of the paid period and payment method updates on the Subscription page. | . ",
+    "content": "Energy codes and compliance . | More energy codes: Chicago 2022, Minnesota 2024, New York State 2020, New York City 2020 and 2025, and Oregon 2021 and 2025, with their own rules and building performance factors. See Energy codes and compliance paths. | Each code lists only its own compliance paths under Rating System. To use the ASHRAE 90.1 alternative an IECC edition allows, choose that 90.1 edition as the energy code. | Performance Calculations (formerly “PCI &amp; PCIt Calculations”): pick the cost index or an energy index. ASHRAE 90.1-2022 and Oregon 2025 offer site energy, source energy or carbon, with optional local conversion factors. 90.1-2022 also counts the code-required on-site solar. | Energy Cost Budget Method and Total Building Performance have their own calculations, with each edition’s limit and renewables rule. | . Fill Baseline from Energy Code . | The baseline HVAC system now follows the compliance path. The Energy Cost Budget Method uses the budget systems and IECC Total Building Performance the standard reference design systems, both pre-selected from your proposed design. | IECC 2009 and 2012 now fill the envelope and lighting from their own tables. | Chicago 2022 and New York State 2020 fill Total Building Performance from their base IECC edition. | . SimReader . | Drag files onto the Baseline and Proposed tiles, and reorder them with the arrows or by dragging. | Next: Results reads the files for you. SimReader warns when the baseline and proposed rate names differ. | Unmet load hours and process loads are shown as tables. Unmet load hours upload to InverseHub, where an Unmet Load Hours card can show them. | On-site renewables and exceptional calculations get their annual cost from the proposed design’s rate until you type your own. | . Reviews and comments . | A summary at the top of the review page: the status and the steps to come, the modeler, the savings, the energy code, the upload date and the start of the conclusion, then links to each section with its open comments. See Reviewers. | Send my comments to the modeler on the Comments tab emails the modeler your open comments in one message. Commenters get an email when the modeler replies or resolves a comment. | The Comments tab filters by All, Open or Resolved, and Show in the table jumps to a comment’s value. | Clients see Your modeler and Needs your attention on their Home page, and Open review and Update status on each project. See Clients. | Your Home tab lists the projects whose comments Need your reply, filters your pinned projects by status, and shows each one’s cost savings, results date and open comments, with your plan’s use alongside. See Your Home tab. | . Account . | Three plans (Starter, Basic and Business), with upgrades, scheduled downgrades, cancellation to the end of the paid period and payment method updates on the Subscription page. | . ",
     "url": "/docs/changelog/#october-2026",
     
     "relUrl": "/docs/changelog/#october-2026"
@@ -568,7 +568,7 @@
   },"81": {
     "doc": "Projects and phases",
     "title": "Projects and phases",
-    "content": "A project holds one building’s results, phase by phase, from Schematic Design to Post-Construction. On this page . | Choose the analysis type | Your plan’s project limit | Pin the projects you’re working on | Modeling phases | Project details | Clients and contacts | Delete a project | . ",
+    "content": "A project holds one building’s results, phase by phase, from Schematic Design to Post-Construction. On this page . | Choose the analysis type | Your plan’s project limit | Your Home tab | Pin the projects you’re working on | Modeling phases | Project details | Clients and contacts | Delete a project | . ",
     "url": "/modelers/projects-and-phases/",
     
     "relUrl": "/modelers/projects-and-phases/"
@@ -582,249 +582,256 @@
   },"83": {
     "doc": "Projects and phases",
     "title": "Your plan’s project limit",
-    "content": "Each plan allows a number of new projects a month (3 on the free Starter plan). New Project shows how many you have left. See Subscription plans. ",
+    "content": "Each plan allows a number of new projects a month (3 on the free Starter plan). The Plan box on your Home tab, and New Project on the Projects tab, show how many you have left. See Subscription plans. ",
     "url": "/modelers/projects-and-phases/#your-plans-project-limit",
     
     "relUrl": "/modelers/projects-and-phases/#your-plans-project-limit"
   },"84": {
+    "doc": "Projects and phases",
+    "title": "Your Home tab",
+    "content": "Your Home tab shows what needs you and where your pinned projects stand. | Needs your reply lists the projects with open comments from reviewers and clients: how many, from whom and when. Select Open comments to go straight to the project’s Comments tab. When nothing is waiting, it isn’t shown. | Project Status counts your pinned projects by status. Click a number to show only those projects, or All to show them all again. | Each pinned project’s card shows its status, current phase and client, with its Cost savings, when its Results were uploaded, and its open Comments. The projects with the latest activity come first. | Plan shows your plan and how many new projects you’ve used this month (or billing period). | . ",
+    "url": "/modelers/projects-and-phases/#your-home-tab",
+    
+    "relUrl": "/modelers/projects-and-phases/#your-home-tab"
+  },"85": {
     "doc": "Projects and phases",
     "title": "Pin the projects you’re working on",
     "content": "Pinned projects are listed on your Home tab, and they’re the only ones SimReader lists under Project Name. | On the Projects tab, use the switch next to the project’s name. | On the project page, select Pinned to unpin it, or Pin to Home to pin it. | . ",
     "url": "/modelers/projects-and-phases/#pin-the-projects-youre-working-on",
     
     "relUrl": "/modelers/projects-and-phases/#pin-the-projects-youre-working-on"
-  },"85": {
+  },"86": {
     "doc": "Projects and phases",
     "title": "Modeling phases",
     "content": "Each phase keeps its own results, model inputs, calculations and conclusion. Choose the phase at the top of the project page under Modeling Phase. The phases are: . | Schematic Design: Preliminary Model, Final Model | Design Development: Preliminary Model, Final Model | Construction Documents: Preliminary Model, Final Model | Certification Review: Preliminary Model, Final Model | Final Approved Model | Post-Construction Model | . SimReader uploads results to the phase you choose in its Modeling Phase list, and offers to create the phase if it doesn’t exist yet. Use the Phase menu next to the phase list to: . | Add a Phase: optionally Start from a copy of the current phase, which copies the model inputs. | Move This Phase: move this phase’s content to a phase that’s still empty. | Remove This Phase: a project needs at least two phases. To bring a removed phase back, add it again with Add a Phase, or upload it again from SimReader. | . ",
     "url": "/modelers/projects-and-phases/#modeling-phases",
     
     "relUrl": "/modelers/projects-and-phases/#modeling-phases"
-  },"86": {
+  },"87": {
     "doc": "Projects and phases",
     "title": "Project details",
     "content": ". | General Information (project name, address, building type and floor areas): select Edit on its card. The building type and areas are used by Fill Baseline and the performance calculations. | Description and Status: on the Projects tab, open the project’s menu (⋮) and select Edit Description or Update Status. The status shows on your Home tab and to your client. | Copy Inputs from Another Project: in Energy Model Inputs, open the menu (⋮). It copies the input rows from one of your other projects. | Design alternatives: select + after the tabs to attach another of your projects as an alternative. It appears as its own tab. | . ",
     "url": "/modelers/projects-and-phases/#project-details",
     
     "relUrl": "/modelers/projects-and-phases/#project-details"
-  },"87": {
+  },"88": {
     "doc": "Projects and phases",
     "title": "Clients and contacts",
     "content": ". | Clients tab: add the companies you work for. Assign a client to a project with Assign Client in the project’s menu (⋮) on the Projects tab. | Contacts tab: the people you work with. A contact linked to a client can get an invitation (Send Invitations) to create an InverseHub account and follow that client’s projects. See Clients. | . ",
     "url": "/modelers/projects-and-phases/#clients-and-contacts",
     
     "relUrl": "/modelers/projects-and-phases/#clients-and-contacts"
-  },"88": {
+  },"89": {
     "doc": "Projects and phases",
     "title": "Delete a project",
     "content": "On the Projects tab, open the project’s menu (⋮) and select Delete. This deletes all its phases and results. Next: Read and upload results with SimReader . ",
     "url": "/modelers/projects-and-phases/#delete-a-project",
     
     "relUrl": "/modelers/projects-and-phases/#delete-a-project"
-  },"89": {
+  },"90": {
     "doc": "Reviewers",
     "title": "Review a shared project",
     "content": "A modeler shared an InverseHub report with you. You can read it without an account; to comment, you need the PIN from your invitation email. On this page . | Read the report | Comment on the report | Send your comments to the modeler | Replies | . ",
     "url": "/reviewers/#review-a-shared-project",
     
     "relUrl": "/reviewers/#review-a-shared-project"
-  },"90": {
+  },"91": {
     "doc": "Reviewers",
     "title": "Read the report",
     "content": "Open the link from the modeler’s email or message. The page shows one modeling phase of the project, starting with a summary. | The summary shows where the project stands: its status and the steps still to come, the modeler and their email, the energy cost and site energy savings, the energy code, and when the results were uploaded. It ends with the start of the modeler’s conclusion. Select Read the full conclusion to jump to all of it. | The section links under the summary take you to each part of the report: General, Model Inputs, Utility Rates, End Use, Monthly, Performance, Calculations, Conclusion and others, depending on the project. A number on a link counts the open comments in that section. Top at the bottom right brings you back up. | Model input rows with nothing entered are left out, so you only read what the modeler filled in. | Download PDF saves the report as a file. | Copy Link copies the page’s link, to pass it on to a colleague. | The Comments tab lists every comment on this phase, with the modeler’s replies. | . ",
     "url": "/reviewers/#read-the-report",
     
     "relUrl": "/reviewers/#read-the-report"
-  },"91": {
+  },"92": {
     "doc": "Reviewers",
     "title": "Comment on the report",
     "content": ". | Select Add Comments. | Enter the email address the invitation was sent to and the PIN from that email, then select Submit. | Point to the value you want to comment on and click the comment icon that appears next to it. On a phone, tap the value. | Type your comment and save it. | . You can edit or delete your own comments: select one in the table, or select Edit next to it on the Comments tab, and choose Edit Your Comment. Other people’s comments are read-only for you. No PIN? Ask the modeler who shared the page. A new PIN replaces the earlier one, so always use the most recent email. ",
     "url": "/reviewers/#comment-on-the-report",
     
     "relUrl": "/reviewers/#comment-on-the-report"
-  },"92": {
+  },"93": {
     "doc": "Reviewers",
     "title": "Send your comments to the modeler",
     "content": "When you’ve finished commenting, tell the modeler in one go: . | Open the Comments tab. | Select Send my comments to the modeler. | . The modeler gets one email listing your open comments on this phase, with a link to the project. The button shows when you have open comments on the phase. If you add more later, send again: each email lists all your comments that are still open. On the Comments tab you can also: . | choose All, Open or Resolved to filter the list; | select Show in the table to jump to the value a comment is on, highlighted for a moment. | . ",
     "url": "/reviewers/#send-your-comments-to-the-modeler",
     
     "relUrl": "/reviewers/#send-your-comments-to-the-modeler"
-  },"93": {
+  },"94": {
     "doc": "Reviewers",
     "title": "Replies",
     "content": "When the modeler replies to your comment or resolves it, you get an email with their reply and a link back to the report. The reply also appears under your comment and on the Comments tab. A resolved comment means the modeler considers it addressed. ",
     "url": "/reviewers/#replies",
     
     "relUrl": "/reviewers/#replies"
-  },"94": {
+  },"95": {
     "doc": "Reviewers",
     "title": "Reviewers",
     "content": " ",
     "url": "/reviewers/",
     
     "relUrl": "/reviewers/"
-  },"95": {
+  },"96": {
     "doc": "Set up",
     "title": "Set up InverseHub and SimReader",
     "content": "You need an InverseHub account to create projects, and SimReader to upload results from your computer. On this page . | 1. Create your InverseHub account | 2. Install SimReader | 3. Sign in to SimReader | Before your first upload | . ",
     "url": "/get-started/set-up/#set-up-inversehub-and-simreader",
     
     "relUrl": "/get-started/set-up/#set-up-inversehub-and-simreader"
-  },"96": {
+  },"97": {
     "doc": "Set up",
     "title": "1. Create your InverseHub account",
     "content": ". | Go to inversehub.com and select Sign up. | Enter your email and a password. The password needs at least 6 characters, with an uppercase letter, a lowercase letter, a digit and a symbol. | Open the confirmation email and select the link. You can sign in once your email is confirmed. | . Every account starts on the free Starter plan, with 3 new projects a month. See Subscription plans for more. ",
     "url": "/get-started/set-up/#1-create-your-inversehub-account",
     
     "relUrl": "/get-started/set-up/#1-create-your-inversehub-account"
-  },"97": {
+  },"98": {
     "doc": "Set up",
     "title": "2. Install SimReader",
     "content": "SimReader is a free Windows app that reads your simulation reports and uploads them to InverseHub. | Install it from the Microsoft Store. | . ",
     "url": "/get-started/set-up/#2-install-simreader",
     
     "relUrl": "/get-started/set-up/#2-install-simreader"
-  },"98": {
+  },"99": {
     "doc": "Set up",
     "title": "3. Sign in to SimReader",
     "content": ". | Open SimReader and select Settings at the bottom of the side menu. | Under User, select Sign in. | Enter your InverseHub email and password, then select Sign in. Tick Remember me to stay signed in on this computer. | . When you’re signed in, the User section shows your email and a Sign out button. ",
     "url": "/get-started/set-up/#3-sign-in-to-simreader",
     
     "relUrl": "/get-started/set-up/#3-sign-in-to-simreader"
-  },"99": {
+  },"100": {
     "doc": "Set up",
     "title": "Before your first upload",
     "content": ". | Utility rates in the model. InverseHub compares the designs by energy cost, so each model needs its utility rates. | The right reports. eQUEST writes what SimReader needs by default. EnergyPlus and OpenStudio need a few extra output tables. See Prepare your model output. | . Next: Your first project . ",
     "url": "/get-started/set-up/#before-your-first-upload",
     
     "relUrl": "/get-started/set-up/#before-your-first-upload"
-  },"100": {
+  },"101": {
     "doc": "Set up",
     "title": "Set up",
     "content": " ",
     "url": "/get-started/set-up/",
     
     "relUrl": "/get-started/set-up/"
-  },"101": {
+  },"102": {
     "doc": "Share and handle comments",
     "title": "Share and handle comments",
     "content": "Share a phase as a link, let reviewers comment with a PIN, answer them, and send a PDF. On this page . | Three ways to share | Invite people to comment | Answer comments | Download a PDF | Choose what reviewers see | . ",
     "url": "/modelers/share/",
     
     "relUrl": "/modelers/share/"
-  },"102": {
+  },"103": {
     "doc": "Share and handle comments",
     "title": "Three ways to share",
     "content": "| You want them to | Do this | They need | . | View the report | Copy Link at the top of the project page, then send the link | Nothing. Anyone with the link can view it. | . | Comment on it | Email them a comment PIN from the Project Team tab | The link and PIN from the email. No account. | . | Follow all their projects | Invite your client’s contacts from the Contacts tab | An InverseHub client account. See Clients. | . The link always shows the phase currently selected under Modeling Phase on your project page. If you switch to another phase later, people with the link see that one. ",
     "url": "/modelers/share/#three-ways-to-share",
     
     "relUrl": "/modelers/share/#three-ways-to-share"
-  },"103": {
+  },"104": {
     "doc": "Share and handle comments",
     "title": "Invite people to comment",
     "content": ". | On the project page, open the Project Team tab. | Select Add from Contacts and choose the people. Add new people on the Contacts tab of your Home page first. | Select their cards (click a card to select it), then Email Comment PIN. | . Each person gets an email with the link and a new PIN. A PIN sent to them earlier stops working, so send a new one whenever someone loses theirs. ",
     "url": "/modelers/share/#invite-people-to-comment",
     
     "relUrl": "/modelers/share/#invite-people-to-comment"
-  },"104": {
+  },"105": {
     "doc": "Share and handle comments",
     "title": "Answer comments",
-    "content": "Reviewers comment on a table cell. A comment icon then appears in that cell, and the Comments tab lists every comment of the phase. When a reviewer or client selects Send my comments to the modeler, you get one email listing their open comments, with a link to the project. | Select the comment to open it. | Type your reply and select Resolve to close it, or keep it open. | Reopen brings back a resolved comment, with your reply kept. | . The person who wrote the comment gets an email with your reply when you save a new or changed reply, and when you resolve the comment. ",
+    "content": "Reviewers comment on a table cell. A comment icon then appears in that cell, and the Comments tab lists every comment of the phase. When a reviewer or client selects Send my comments to the modeler, you get one email listing their open comments, with a link to the project. Projects with open comments are also listed under Needs your reply on your Home tab. | Select the comment to open it. | Type your reply and select Resolve to close it, or keep it open. | Reopen brings back a resolved comment, with your reply kept. | . The person who wrote the comment gets an email with your reply when you save a new or changed reply, and when you resolve the comment. ",
     "url": "/modelers/share/#answer-comments",
     
     "relUrl": "/modelers/share/#answer-comments"
-  },"105": {
+  },"106": {
     "doc": "Share and handle comments",
     "title": "Download a PDF",
     "content": "Select Download PDF at the top of the project page. The file is named “Project – Phase – date”. It shows the same sections as the review page, including the charts and cards you’ve switched on. ",
     "url": "/modelers/share/#download-a-pdf",
     
     "relUrl": "/modelers/share/#download-a-pdf"
-  },"106": {
+  },"107": {
     "doc": "Share and handle comments",
     "title": "Choose what reviewers see",
     "content": ". | Charts: each monthly chart has a Shown / Hidden switch. | Unmet Load Hours: hidden until you switch it on. | Phase: reviewers see the phase selected on your project page. Select the phase to share before you send the link. | . Next: What reviewers see . ",
     "url": "/modelers/share/#choose-what-reviewers-see",
     
     "relUrl": "/modelers/share/#choose-what-reviewers-see"
-  },"107": {
+  },"108": {
     "doc": "SimReader units",
     "title": "SimReader units",
     "content": "SimReader converts every report into these units, whatever the report itself uses (joules, GJ, MMBtu and so on), so baseline and proposed results always line up. | Energy type | Consumption | Peak demand | . | Electricity | kWh | kW | . | Natural gas | therm | therm/h | . | Gasoline | therm | therm/h | . | Fuel oil | gal | gal/min | . | Propane | kBtu | kBtu/h | . | Diesel | kBtu | kBtu/h | . | Coal | kBtu | kBtu/h | . | Other fuel | kBtu | kBtu/h | . | District cooling | MBtu | MBtu/h | . | District heating | MBtu | MBtu/h | . Totals across energy types (for example “Baseline in kBtu” in Total Energy Performance) are in kBtu. ",
     "url": "/reference/simreader-units/",
     
     "relUrl": "/reference/simreader-units/"
-  },"108": {
+  },"109": {
     "doc": "Read and upload results with SimReader",
     "title": "Read and upload results with SimReader",
     "content": "SimReader reads your baseline and proposed reports, shows the results for you to check, then uploads them to a phase of your InverseHub project. On this page . | The Project page . | Which files go where | . | The Results page | Upload to InverseHub | Save your SimReader project | After the upload: split an end use | . ",
     "url": "/modelers/simreader/",
     
     "relUrl": "/modelers/simreader/"
-  },"109": {
+  },"110": {
     "doc": "Read and upload results with SimReader",
     "title": "The Project page",
     "content": ". | Project Name: your pinned InverseHub projects. Select Refresh to reload the list after you pin a project. | Modeling Phase and Client Name: filled in from InverseHub. Reload from InverseHub fetches them again. If you change the client here, the upload changes it for every phase of the project. | Analysis Type: must match the project (Standard Baseline, Custom Baseline or Parametric Analysis). | Files: drag .SIM, .htm or .html files onto the tiles, or select a tile to browse. | . Which files go where . | Analysis type | Left tile | Right tile | . | Standard or Custom Baseline | Baseline(s): one or more baseline runs. Several runs (such as the four orientations) are averaged. | Proposed: one file. If you add several, they’re averaged too. | . | Parametric Analysis | Base Design: one file. | ECM(s): one file per measure, numbered in list order. | . The order matters. The first file in each list supplies the utility rates, the DOE-2 or EnergyPlus version and the unmet load hours. Use the up and down arrows, or drag a file within its list, to reorder. Remove takes the selected files off the list. Select Next: Results when the files are in place. ",
     "url": "/modelers/simreader/#the-project-page",
     
     "relUrl": "/modelers/simreader/#the-project-page"
-  },"110": {
+  },"111": {
     "doc": "Read and upload results with SimReader",
     "title": "The Results page",
     "content": ". SimReader reads the files as you arrive, and again whenever the file list changes. Reload reads them again, for example after you rerun a simulation. ‹ Edit files goes back to the Project page. Check each section before uploading: . | Utility Rates: the rate of each meter in each design. Untick Include? to leave a meter out. If the baseline and proposed rate names differ, SimReader warns you after reading. | On-Site Renewable Energy Production and Exceptional Calculation: select + Add to enter them. They’re subtracted from the proposed design. The annual energy cost is calculated from the energy and the proposed design’s rate until you type your own. | Energy Summary by End Use: energy, demand and savings by end use. Tick Process for end uses that are process loads. | Total Energy Performance and Simulation Information: totals, process load share and unmet load hours. A total over 300 unmet hours is shown in red. | . ",
     "url": "/modelers/simreader/#the-results-page",
     
     "relUrl": "/modelers/simreader/#the-results-page"
-  },"111": {
+  },"112": {
     "doc": "Read and upload results with SimReader",
     "title": "Upload to InverseHub",
     "content": ". | Select Upload to InverseHub. You need to be signed in (Settings &gt; Sign in). | If the phase doesn’t exist on InverseHub yet, SimReader asks whether to create it. If it already has results, SimReader asks before replacing them. | Refresh the project page in InverseHub to see the new results. | . The upload also fills Simulation Program and Weather File in the project’s Energy Model Information. ",
     "url": "/modelers/simreader/#upload-to-inversehub",
     
     "relUrl": "/modelers/simreader/#upload-to-inversehub"
-  },"112": {
+  },"113": {
     "doc": "Read and upload results with SimReader",
     "title": "Save your SimReader project",
     "content": "Use Save or Save As (Ctrl+S, Ctrl+Shift+S) to keep the file lists, the entries you added and the results in a .ine file. Open (Ctrl+O) brings them back later. ",
     "url": "/modelers/simreader/#save-your-simreader-project",
     
     "relUrl": "/modelers/simreader/#save-your-simreader-project"
-  },"113": {
+  },"114": {
     "doc": "Read and upload results with SimReader",
     "title": "After the upload: split an end use",
     "content": "Simulation programs have a fixed set of end uses. To report part of one separately, for example the parking garage fans inside miscellaneous equipment: . | In InverseHub, on Energy Summary by End Use, select Split an end use (+). | Choose the end use to split, tick Process load if the new end use is one, and enter its consumption and demand. | Select the new end use’s name later to edit or delete it. | . Splitting isn’t available for Parametric Analysis projects. Next: Fill in Energy Model Inputs . ",
     "url": "/modelers/simreader/#after-the-upload-split-an-end-use",
     
     "relUrl": "/modelers/simreader/#after-the-upload-split-an-end-use"
-  },"114": {
+  },"115": {
     "doc": "Contact us",
     "title": "Contact us",
     "content": "Write to the address that fits your question. Help with InverseHub or SimReader support@inversenergy.com Billing and payments billing-support@inversenergy.com General questions help@inversenergy.com Press press@inversenergy.com For a technical issue, include the project name, the modeling phase, and a screenshot of any message. For a SimReader read problem, attach the report file if you can. InversEnergy, Inc. · 11 Nathan Pratt Drive, Concord, MA · inversenergy.com . ",
     "url": "/docs/technical-support/",
     
     "relUrl": "/docs/technical-support/"
-  },"115": {
+  },"116": {
     "doc": "Troubleshooting",
     "title": "Troubleshooting",
     "content": "Find the message you see, then what to do about it. On this page . | SimReader: reading files | SimReader: signing in and uploading | InverseHub | . ",
     "url": "/troubleshooting/",
     
     "relUrl": "/troubleshooting/"
-  },"116": {
+  },"117": {
     "doc": "Troubleshooting",
     "title": "SimReader: reading files",
     "content": "| Message | What to do | . | Report tables missing: this EnergyPlus report is missing tables SimReader needs | Add the output tables to the IDF and rerun the simulation. See EnergyPlus and OpenStudio. | . | ES-D report missing: the .sim file has no ES-D report | The eQUEST model has no utility rates. Add them and rerun the simulation. | . | Meter name warning: meters with the same first 4 characters | eQUEST’s ES-D report keeps only 4 characters of a meter name. Rename one meter in the model so the first 4 characters differ. | . | Utility rate warning after reading | The baseline and proposed models use different rate names for a meter, so the designs are priced differently. Check the rates in both models. | . | File not found | The file was moved or renamed. Update the file list on the Project page. | . | Read error or Report files can’t be read | Check that the simulation finished and the file is complete, then select Reload. | . | More than one proposed file | The proposed results are averaged. Keep one file unless you mean to average. | . | More than one base design file | Parametric Analysis uses only the first base design file. | . | Files missing: add the base design file | A Parametric Analysis needs a base design file before it can read the ECMs. | . | Open failed | The .ine file isn’t a SimReader project or is damaged. | . ",
     "url": "/troubleshooting/#simreader-reading-files",
     
     "relUrl": "/troubleshooting/#simreader-reading-files"
-  },"117": {
+  },"118": {
     "doc": "Troubleshooting",
     "title": "SimReader: signing in and uploading",
     "content": "| Message | What to do | . | Sign in required | Go to Settings &gt; Sign in. | . | The email or password is incorrect | Check both. If you just signed up, confirm your email first. | . | No pinned projects | Pin the project in InverseHub, then select Refresh in SimReader. See Pin the projects you’re working on. | . | No project selected | Choose the project on the Project page, then upload again. | . | Create a modeling phase? | The phase doesn’t exist on InverseHub yet. Select Create and upload. | . | Replace results on InverseHub? | The phase already has results. Select Replace to replace them. | . | Change the client? | The client you chose differs from InverseHub’s. The change applies to every phase of the project. | . | Upload failed | Sign out and sign in again under Settings, then try again. If it still fails, email support@inversenergy.com. | . | Upload stopped: more than one phase with this name | Email support@inversenergy.com with the project name. | . | The maximum number of projects | Your plan’s monthly project limit is reached. See Subscription plans. | . ",
     "url": "/troubleshooting/#simreader-signing-in-and-uploading",
     
     "relUrl": "/troubleshooting/#simreader-signing-in-and-uploading"
-  },"118": {
+  },"119": {
     "doc": "Troubleshooting",
     "title": "InverseHub",
     "content": "| What you see | What to do | . | New results don’t appear after an upload | Refresh the page, and check the Modeling Phase selected at the top. | . | A path you need isn’t in the Rating System list | Each code lists only its own compliance paths. Check the Energy Code Used. For an IECC project that uses ASHRAE 90.1 instead, choose the 90.1 edition as the code. | . | “Select a BPF … under Performance Calculations first” | Add the performance calculation (+) before the conclusion. | . | “Enter the required energy credits … first” | Add the cost budget calculation (+) with the credits, then the conclusion. | . | “Select the eGRID subregion under zEPI Calculations first” | Add the zEPI calculation (+) with the subregion, then the conclusion. | . | “InverseHub has no tables for this code and climate zone yet” in Fill Baseline | Fill those Baseline rows yourself. See What gets filled. | . | Values like “x.xx EER” after Fill Baseline | They’re placeholders. Replace them with your project’s values. | . | A red note that the code doesn’t allow the method | You picked a calculation method the code doesn’t use. The result is for reference only. Pick the code’s method in the calculation dialog. | . | Monthly Project Limit Reached | Wait for next month’s reset, or upgrade your plan. See Subscription plans. | . Still stuck? Email support@inversenergy.com with the project name, the phase and a screenshot of the message. ",
