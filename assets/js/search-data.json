@@ -36,7 +36,7 @@
   },"5": {
     "doc": "Account and subscription",
     "title": "Subscribe or change your plan",
-    "content": "Open the menu under your email (top right) and select Subscription. | Subscribe: choose Basic or Business and enter your payment details. | Upgrade: the new plan starts now. You pay the difference for the rest of the billing period. | Downgrade: the change takes effect on your next billing date. You keep your current plan until then. To undo a scheduled downgrade, choose your current plan again. | Update Payment Method: change the card used for renewals. If a payment failed, updating the card also retries it. | . ",
+    "content": "Open the menu under your name (top right) and select Subscription. | Subscribe: choose Basic or Business and enter your payment details. | Upgrade: the new plan starts now. You pay the difference for the rest of the billing period. | Downgrade: the change takes effect on your next billing date. You keep your current plan until then. To undo a scheduled downgrade, choose your current plan again. | Update Payment Method: change the card used for renewals. If a payment failed, updating the card also retries it. | . ",
     "url": "/account/#subscribe-or-change-your-plan",
     
     "relUrl": "/account/#subscribe-or-change-your-plan"
@@ -57,7 +57,7 @@
   },"8": {
     "doc": "Account and subscription",
     "title": "Account settings",
-    "content": "Open the menu under your email and select Account settings to change your profile, email address or password. To delete your account, go to Account settings &gt; Personal data. Cancel any paid subscription first. ",
+    "content": "Open the menu under your name (top right) and select Account settings. | Profile: your picture, your name, credential and title, and your company. Your name, credential and title appear on your PDF reports; the preview on the page shows how. A picture can be a PNG or JPG up to 2 MB; it’s cropped to a square. | Email: select Change email and enter the new address. We send a confirmation link to it, and your current email keeps working until you click the link. | Password: enter your current password and the new one. If you’ve forgotten the current one, select Forgot your current password? to reset it by email. | Subscription: opens the Subscription page. | Your data: download the personal details stored in your account, or delete your account. Cancel any paid subscription first. | . ",
     "url": "/account/#account-settings",
     
     "relUrl": "/account/#account-settings"
