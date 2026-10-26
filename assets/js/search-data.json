@@ -517,33 +517,33 @@
     
     "relUrl": "/"
   },"74": {
-    "doc": "Get started",
-    "title": "Get started",
-    "content": "New to InverseHub? Set up once, then follow your first project from upload to a shared report. | Set up InverseHub and SimReader: create your account, install SimReader and sign in. About 5 minutes. | Your first project: create a project, upload results, show compliance and share the report. About 15 minutes. | . ",
-    "url": "/get-started/",
-    
-    "relUrl": "/get-started/"
-  },"75": {
     "doc": "Reference",
     "title": "Reference",
     "content": "Look-up pages: what InverseHub supports and how it calculates. | Energy codes and compliance paths | How results are calculated | SimReader units | Glossary | . ",
     "url": "/reference/",
     
     "relUrl": "/reference/"
-  },"76": {
+  },"75": {
     "doc": "Modelers",
     "title": "Guides for energy modelers",
     "content": "Task-by-task help, in the order you’ll usually need it. | Prepare your model output: utility rates, eQUEST meter names, the EnergyPlus tables SimReader reads. | Projects and phases: analysis types, modeling phases, clients, pinning. | Read and upload results with SimReader: files, averaging, renewables, exceptional calculations, uploading. | Fill in Energy Model Inputs: the energy code, the rating system, and the baseline filled from the code. | Show compliance: performance calculations and conclusions for each compliance path. | Share and handle comments: links, who can comment, invitations, replies, PDFs and clients. | . ",
     "url": "/modelers/#guides-for-energy-modelers",
     
     "relUrl": "/modelers/#guides-for-energy-modelers"
-  },"77": {
+  },"76": {
     "doc": "Modelers",
     "title": "Modelers",
     "content": " ",
     "url": "/modelers/",
     
     "relUrl": "/modelers/"
+  },"77": {
+    "doc": "Get started",
+    "title": "Get started",
+    "content": "New to InverseHub? Set up once, then follow your first project from upload to a shared report. | Set up InverseHub and SimReader: create your account, install SimReader and sign in. About 5 minutes. | Your first project: create a project, upload results, show compliance and share the report. About 15 minutes. | . ",
+    "url": "/get-started/",
+    
+    "relUrl": "/get-started/"
   },"78": {
     "doc": "Prepare your model output",
     "title": "Prepare your model output",
