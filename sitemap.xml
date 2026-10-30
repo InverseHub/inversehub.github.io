@@ -2,7 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://help.inversehub.com/docs/changelog/</loc>
-    <lastmod>2026-10-29</lastmod>
+    <lastmod>2026-10-30</lastmod>
   </url>
   <url>
     <loc>https://help.inversehub.com/account/</loc>
@@ -70,7 +70,7 @@
   </url>
   <url>
     <loc>https://help.inversehub.com/get-started/set-up/</loc>
-    <lastmod>2026-10-20</lastmod>
+    <lastmod>2026-10-30</lastmod>
   </url>
   <url>
     <loc>https://help.inversehub.com/modelers/share/</loc>
@@ -82,7 +82,7 @@
   </url>
   <url>
     <loc>https://help.inversehub.com/modelers/simreader/</loc>
-    <lastmod>2026-10-23</lastmod>
+    <lastmod>2026-10-30</lastmod>
   </url>
   <url>
     <loc>https://help.inversehub.com/docs/technical-support/</loc>
@@ -90,6 +90,6 @@
   </url>
   <url>
     <loc>https://help.inversehub.com/troubleshooting/</loc>
-    <lastmod>2026-10-26</lastmod>
+    <lastmod>2026-10-30</lastmod>
   </url>
 </urlset>
